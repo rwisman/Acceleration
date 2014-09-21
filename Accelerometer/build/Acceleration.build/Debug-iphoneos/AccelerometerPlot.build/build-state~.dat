@@ -1,0 +1,1630 @@
+TAccelerometerPlot
+v7
+r0
+t334447805.706887
+cCheck dependencies
+cCpResource build/Debug-iphoneos/Acceleration.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/Info.plist Info.plist
+cCompileXIB /d/Accelerometer/MainWindow.xib
+cCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/16-line-chart.png GlyphishIcons/16-line-chart.png
+cCompileXIB /d/Accelerometer/Accelerometer.xib
+cCpResource build/Debug-iphoneos/Acceleration.app/Settings.bundle Settings.bundle
+cCompileXIB /d/Accelerometer/SizingView.xib
+cCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/blue.png GlyphishIcons/blue.png
+cCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/red.png GlyphishIcons/red.png
+cCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/green.png GlyphishIcons/green.png
+cCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/63-runner.png GlyphishIcons/63-runner.png
+cCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/Icon-Small-50.png GlyphishIcons/Icon-Small-50.png
+cCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/57x57.png GlyphishIcons/57x57.png
+cCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/72x72.png GlyphishIcons/72x72.png
+cCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/512x512.png GlyphishIcons/512x512.png
+cCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/clock-32x32.png GlyphishIcons/clock-32x32.png
+cCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/clock-22x22.png GlyphishIcons/clock-22x22.png
+cCpResource build/Debug-iphoneos/Acceleration.app/calibrateSound.caf Sounds/calibrateSound.caf
+cCpResource build/Debug-iphoneos/Acceleration.app/startSound.caf Sounds/startSound.caf
+cCpResource build/Debug-iphoneos/Acceleration.app/stopSound.caf Sounds/stopSound.caf
+cCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/start.png GlyphishIcons/start.png
+cCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/stop.png GlyphishIcons/stop.png
+cCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/email.png GlyphishIcons/email.png
+cCompileXIB /d/Accelerometer/ScatterPlot.xib
+cCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/samplesPerSecond.PNG GlyphishIcons/samplesPerSecond.PNG
+cProcessPCH /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-cruvrhuduyaaaefapbbuhbzjiwpd/AccelerometerPlot_Prefix.pch.gch AccelerometerPlot_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-arxdgcifdnjapfenclzfiemnagzw/AccelerometerPlot_Prefix.pch.gch AccelerometerPlot_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/main.o /d/Accelerometer/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/AppDelegate.o /d/Accelerometer/Classes/AppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/AccelerometerData.o /d/Accelerometer/Classes/AccelerometerData.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/AccelerometerController.o /d/Accelerometer/Classes/AccelerometerController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/ZPlotController.o /d/Accelerometer/Classes/ZPlotController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/PlotController.o /d/Accelerometer/Classes/PlotController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/XPlotController.o /d/Accelerometer/Classes/XPlotController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/YPlotController.o /d/Accelerometer/Classes/YPlotController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/SoundEffect.o /d/Accelerometer/Classes/SoundEffect.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/main.o /d/Accelerometer/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/Acceleration normal armv6
+cCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/AppDelegate.o /d/Accelerometer/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/AccelerometerData.o /d/Accelerometer/Classes/AccelerometerData.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/AccelerometerController.o /d/Accelerometer/Classes/AccelerometerController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/ZPlotController.o /d/Accelerometer/Classes/ZPlotController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/PlotController.o /d/Accelerometer/Classes/PlotController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/XPlotController.o /d/Accelerometer/Classes/XPlotController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/YPlotController.o /d/Accelerometer/Classes/YPlotController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/SoundEffect.o /d/Accelerometer/Classes/SoundEffect.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/Acceleration normal armv7
+cProcessProductPackaging "/Users/macman/Library/MobileDevice/Provisioning Profiles/E7B27763-001C-4BB3-8340-1698E45E22B2.mobileprovision" /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/embedded.mobileprovision
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration.xcent
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D7401890000000000000110
+t1299448201
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004D5A25CF00000000003FF380
+t1297753551
+s4191104
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioServices.h
+c000000004D5A259E0000000000010AD5
+t1297753502
+s68309
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.h
+c000000004D5DEA8100000000000000CD
+t1298000513
+s205
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004D5DEA9B0000000000113080
+t1298000539
+s1126528
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004D54D49500000000000000C4
+t1297405077
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004D54D608000000000026CB10
+t1297405448
+s2542352
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Users/macman/Library/MobileDevice/Provisioning Profiles/E7B27763-001C-4BB3-8340-1698E45E22B2.mobileprovision
+c000000004E3315840000000000001C3F
+t1311970692
+s7231
+
+N/d/Accelerometer/Accelerometer.xib
+c000000004C87F8A0000000000000CE47
+t1283979424
+s52807
+
+N/d/Accelerometer/AccelerometerPlot_Prefix.pch
+c000000004C78649600000000000000BD
+t1282958486
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/d/Accelerometer/Classes/AccelerometerController.h
+c000000004C82FA580000000000000841
+t1283652184
+s2113
+i<UIKit/UIKit.h>
+i<MessageUI/MessageUI.h>
+i"AccelerometerData.h"
+i"SoundEffect.h"
+
+N/d/Accelerometer/Classes/AccelerometerController.m
+c000000004C87F8A00000000000002969
+t1283979424
+s10601
+i"AccelerometerController.h"
+
+N/d/Accelerometer/Classes/AccelerometerData.h
+c000000004C7864960000000000000398
+t1282958486
+s920
+
+N/d/Accelerometer/Classes/AccelerometerData.m
+c000000004C78649600000000000001D5
+t1282958486
+s469
+i"AccelerometerData.h"
+
+N/d/Accelerometer/Classes/AppDelegate.h
+c000000004C786496000000000000021A
+t1282958486
+s538
+i<UIKit/UIKit.h>
+
+N/d/Accelerometer/Classes/AppDelegate.m
+c000000004C78649600000000000002DC
+t1282958486
+s732
+i"AppDelegate.h"
+
+N/d/Accelerometer/Classes/PlotController.h
+c000000004C87F8A00000000000000666
+t1283979424
+s1638
+i"CorePlot-CocoaTouch.h"
+i"AccelerometerData.h"
+
+N/d/Accelerometer/Classes/PlotController.m
+c000000004C87F8A000000000000023DC
+t1283979424
+s9180
+i"PlotController.h"
+
+N/d/Accelerometer/Classes/SoundEffect.h
+c000000004C82FA580000000000000ACF
+t1283652184
+s2767
+i<UIKit/UIKit.h>
+i<AudioToolbox/AudioServices.h>
+
+N/d/Accelerometer/Classes/SoundEffect.m
+c000000004C82FA580000000000000E4A
+t1283652184
+s3658
+i"SoundEffect.h"
+
+N/d/Accelerometer/Classes/XPlotController.h
+c000000004C7864960000000000000070
+t1282958486
+s112
+i"CorePlot-CocoaTouch.h"
+i"PlotController.h"
+
+N/d/Accelerometer/Classes/XPlotController.m
+c000000004C7864960000000000000124
+t1282958486
+s292
+i"XPlotController.h"
+
+N/d/Accelerometer/Classes/YPlotController.h
+c000000004C786496000000000000006F
+t1282958486
+s111
+i"CorePlot-CocoaTouch.h"
+i"PlotController.h"
+
+N/d/Accelerometer/Classes/YPlotController.m
+c000000004C786496000000000000011F
+t1282958486
+s287
+i"YPlotController.h"
+
+N/d/Accelerometer/Classes/ZPlotController.h
+c000000004C7864960000000000000070
+t1282958486
+s112
+i"CorePlot-CocoaTouch.h"
+i"PlotController.h"
+
+N/d/Accelerometer/Classes/ZPlotController.m
+c000000004C786496000000000000011F
+t1282958486
+s287
+i"ZPlotController.h"
+
+N/d/Accelerometer/GlyphishIcons/16-line-chart.png
+c000000004C7864960000000000000226
+t1282958486
+s550
+
+N/d/Accelerometer/GlyphishIcons/512x512.png
+c000000004C786496000000000000F8DB
+t1282958486
+s63707
+
+N/d/Accelerometer/GlyphishIcons/57x57.png
+c000000004C7864960000000000001B57
+t1282958486
+s6999
+
+N/d/Accelerometer/GlyphishIcons/63-runner.png
+c000000004C786496000000000000015E
+t1282958486
+s350
+
+N/d/Accelerometer/GlyphishIcons/72x72.png
+c000000004C78649600000000000022D2
+t1282958486
+s8914
+
+N/d/Accelerometer/GlyphishIcons/Icon-Small-50.png
+c000000004C7864960000000000001829
+t1282958486
+s6185
+
+N/d/Accelerometer/GlyphishIcons/blue.png
+c000000004C7864960000000000000B57
+t1282958486
+s2903
+
+N/d/Accelerometer/GlyphishIcons/clock-22x22.png
+c000000004C82FA5800000000000006AD
+t1283652184
+s1709
+
+N/d/Accelerometer/GlyphishIcons/clock-32x32.png
+c000000004C82FA580000000000000AD4
+t1283652184
+s2772
+
+N/d/Accelerometer/GlyphishIcons/email.png
+c000000004C82FA58000000000000153A
+t1283652184
+s5434
+
+N/d/Accelerometer/GlyphishIcons/green.png
+c000000004C7864960000000000000A7B
+t1282958486
+s2683
+
+N/d/Accelerometer/GlyphishIcons/red.png
+c000000004C7864960000000000000F73
+t1282958486
+s3955
+
+N/d/Accelerometer/GlyphishIcons/samplesPerSecond.PNG
+c000000004C831F9300000000000013B8
+t1283661715
+s5048
+
+N/d/Accelerometer/GlyphishIcons/start.png
+c000000004C82FA580000000000001F4B
+t1283652184
+s8011
+
+N/d/Accelerometer/GlyphishIcons/stop.png
+c000000004C82FA580000000000002055
+t1283652184
+s8277
+
+N/d/Accelerometer/MainWindow.xib
+c000000004C82FA58000000000000AA3E
+t1283652184
+s43582
+
+N/d/Accelerometer/ScatterPlot.xib
+c000000004C82FA58000000000000514A
+t1283652184
+s20810
+
+N/d/Accelerometer/Settings.bundle
+c000000004E3F0A1F0000000000000088
+t1312754207
+s136
+
+N/d/Accelerometer/SizingView.xib
+c000000004C858E22000000000000906C
+t1283821090
+s36972
+
+N/d/Accelerometer/Sounds/calibrateSound.caf
+c000000004C82FA580000000000006622
+t1283652184
+s26146
+
+N/d/Accelerometer/Sounds/startSound.caf
+c000000004C82FA580000000000006622
+t1283652184
+s26146
+
+N/d/Accelerometer/Sounds/stopSound.caf
+c000000004C82FA580000000000036D54
+t1283652184
+s224596
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration.xcent
+t1312755005
+s440
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/Acceleration
+t1312755005
+s578792
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/Acceleration.LinkFileList
+c000000004E3F0D3A000000000000042E
+t1312755002
+s1070
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/AccelerometerController.o
+t1312755005
+s98024
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/AccelerometerData.o
+t1312755004
+s19868
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/AppDelegate.o
+t1312755004
+s54040
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/PlotController.o
+t1312755005
+s94760
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/SoundEffect.o
+t1312755005
+s10884
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/XPlotController.o
+t1312755005
+s44856
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/YPlotController.o
+t1312755005
+s44812
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/ZPlotController.o
+t1312755004
+s44812
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/main.o
+t1312755004
+s6460
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/Acceleration
+t2
+s0
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/Acceleration.LinkFileList
+c000000004E3F0D3A000000000000042E
+t1312755002
+s1070
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/AccelerometerController.o
+t1312755005
+s95596
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/AccelerometerData.o
+t1312755005
+s19668
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/AppDelegate.o
+t1312755005
+s53900
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/PlotController.o
+t1312755005
+s91656
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/SoundEffect.o
+t1312755005
+s10796
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/XPlotController.o
+t1312755005
+s44836
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/YPlotController.o
+t1312755005
+s44792
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/ZPlotController.o
+t1312755005
+s44792
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/main.o
+t1312755005
+s6444
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app
+t2
+s0
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app.dSYM
+t2
+s0
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/16-line-chart.png
+t1312755002
+s537
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/512x512.png
+t1312755003
+s51261
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/57x57.png
+t1312755003
+s6470
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/63-runner.png
+t1312755003
+s413
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/72x72.png
+t1312755003
+s8130
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/Acceleration
+t2
+s0
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/Accelerometer.nib
+t1312755003
+s8743
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/Icon-Small-50.png
+t1312755003
+s5872
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/Info.plist
+t1312755002
+s1055
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/MainWindow.nib
+t1312755003
+s3694
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/PkgInfo
+t1312755002
+s8
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/ResourceRules.plist
+t1312755002
+s485
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/ScatterPlot.nib
+t1312755004
+s1325
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/Settings.bundle
+t1312755003
+s136
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/SizingView.nib
+t1312755003
+s6190
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/blue.png
+t1312755003
+s3319
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/calibrateSound.caf
+t1312755003
+s26146
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/clock-22x22.png
+t1312755003
+s1772
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/clock-32x32.png
+t1312755003
+s2719
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/email.png
+t1312755003
+s4168
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/embedded.mobileprovision
+t1312755005
+s7231
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/green.png
+t1312755003
+s2969
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/red.png
+t1312755003
+s4419
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/samplesPerSecond.PNG
+t1312755003
+s4991
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/start.png
+t1312755003
+s7891
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/startSound.caf
+t1312755003
+s26146
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/stop.png
+t1312755003
+s8103
+
+N/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/stopSound.caf
+t1312755003
+s224596
+
+N/d/Accelerometer/core-plot/build/Debug-iphoneos/libCorePlot-CocoaTouch.a
+c000000004E3F0D3A0000000000184928
+t1312755002
+s1591592
+
+N/d/Accelerometer/core-plot/build/Debug/libCorePlot-CocoaTouch.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/d/Accelerometer/core-plot/framework/CorePlot-CocoaTouch.h
+c000000004C786496000000000000060C
+t1282958486
+s1548
+i"CPAnimation.h"
+i"CPAnimationKeyFrame.h"
+i"CPAnimationTransition.h"
+i"CPAnnotation.h"
+i"CPAnnotationHostLayer.h"
+i"CPAxis.h"
+i"CPAxisLabel.h"
+i"CPAxisLabelGroup.h"
+i"CPAxisSet.h"
+i"CPAxisTitle.h"
+i"CPBarPlot.h"
+i"CPBorderedLayer.h"
+i"CPColor.h"
+i"CPColorSpace.h"
+i"CPConstrainedPosition.h"
+i"CPDarkGradientTheme.h"
+i"CPDefinitions.h"
+i"CPExceptions.h"
+i"CPFill.h"
+i"CPGradient.h"
+i"CPGraph.h"
+i"CPGridLines.h"
+i"CPImage.h"
+i"CPLayer.h"
+i"CPLayerAnnotation.h"
+i"CPLayerHostingView.h"
+i"CPLayoutManager.h"
+i"CPLineStyle.h"
+i"CPPieChart.h"
+i"CPPlainBlackTheme.h"
+i"CPPlainWhiteTheme.h"
+i"CPPlatformSpecificDefines.h"
+i"CPPlatformSpecificFunctions.h"
+i"CPPlatformSpecificCategories.h"
+i"CPPathExtensions.h"
+i"CPPlot.h"
+i"CPPlotAreaFrame.h"
+i"CPPlotGroup.h"
+i"CPPlotRange.h"
+i"CPPlotSpace.h"
+i"CPPlotSpaceAnnotation.h"
+i"CPPlotSymbol.h"
+i"CPPolarPlotSpace.h"
+i"CPResponder.h"
+i"CPScatterPlot.h"
+i"CPSlateTheme.h"
+i"CPSlateTheme.h"
+i"CPStocksTheme.h"
+i"CPTextLayer.h"
+i"CPTextStyle.h"
+i"CPTheme.h"
+i"CPTimeFormatter.h"
+i"CPTradingRangePlot.h"
+i"CPUtilities.h"
+i"CPXYAxis.h"
+i"CPXYAxisSet.h"
+i"CPXYGraph.h"
+i"CPXYPlotSpace.h"
+i"CPXYTheme.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPAnimation.h
+c000000004C786496000000000000054C
+t1282958486
+s1356
+i<Foundation/Foundation.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPAnimationKeyFrame.h
+c000000004C78649600000000000001B6
+t1282958486
+s438
+i<Foundation/Foundation.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPAnimationTransition.h
+c000000004C7864960000000000000461
+t1282958486
+s1121
+i<Foundation/Foundation.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPAnnotation.h
+c000000004C78649600000000000002B9
+t1282958486
+s697
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPAnnotationHostLayer.h
+c000000004C7864960000000000000143
+t1282958486
+s323
+i"CPBorderedLayer.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPAxis.h
+c000000004C78649600000000000019A9
+t1282958486
+s6569
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+i"CPDefinitions.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPAxisLabel.h
+c000000004C786496000000000000040B
+t1282958486
+s1035
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPAxisLabelGroup.h
+c000000004C7864960000000000000068
+t1282958486
+s104
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPAxisSet.h
+c000000004C7864960000000000000144
+t1282958486
+s324
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPAxisTitle.h
+c000000004C786496000000000000006D
+t1282958486
+s109
+i<Foundation/Foundation.h>
+i"CPAxisLabel.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPBarPlot.h
+c000000004C7864960000000000000B05
+t1282958486
+s2821
+i<Foundation/Foundation.h>
+i"CPPlot.h"
+i"CPDefinitions.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPBorderedLayer.h
+c000000004C786496000000000000013F
+t1282958486
+s319
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPColor.h
+c000000004C7864960000000000000439
+t1282958486
+s1081
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPColorSpace.h
+c000000004C7864960000000000000141
+t1282958486
+s321
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPConstrainedPosition.h
+c000000004C78649600000000000003CE
+t1282958486
+s974
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPDarkGradientTheme.h
+c000000004C786496000000000000006F
+t1282958486
+s111
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPDefinitions.h
+c000000004C7864960000000000000C51
+t1282958486
+s3153
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPExceptions.h
+c000000004C78649600000000000000B2
+t1282958486
+s178
+i<Foundation/Foundation.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPFill.h
+c000000004C7864960000000000000346
+t1282958486
+s838
+i<QuartzCore/QuartzCore.h>
+i<Foundation/Foundation.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPGradient.h
+c000000004C7864960000000000000B97
+t1282958486
+s2967
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPGraph.h
+c000000004C7864960000000000000AF0
+t1282958486
+s2800
+i"CPAnnotationHostLayer.h"
+i"CPDefinitions.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPGridLines.h
+c000000004C786496000000000000010A
+t1282958486
+s266
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPImage.h
+c000000004C78649600000000000002AA
+t1282958486
+s682
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPLayer.h
+c000000004C78649600000000000008CF
+t1282958486
+s2255
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+i"CPResponder.h"
+i"CPPlatformSpecificDefines.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPLayerAnnotation.h
+c000000004C78649600000000000001E3
+t1282958486
+s483
+i<Foundation/Foundation.h>
+i"CPAnnotation.h"
+i"CPConstrainedPosition.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPLayoutManager.h
+c000000004C78649600000000000006B2
+t1282958486
+s1714
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPLineStyle.h
+c000000004C786496000000000000040E
+t1282958486
+s1038
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPPathExtensions.h
+c000000004C78649600000000000000E7
+t1282958486
+s231
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPPieChart.h
+c000000004C7864960000000000000826
+t1282958486
+s2086
+i<Foundation/Foundation.h>
+i"CPPlot.h"
+i"CPDefinitions.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPPlainBlackTheme.h
+c000000004C786496000000000000006E
+t1282958486
+s110
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPPlainWhiteTheme.h
+c000000004C786496000000000000006E
+t1282958486
+s110
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPPlot.h
+c000000004C7864960000000000000F79
+t1282958486
+s3961
+i"CPDefinitions.h"
+i"CPPlotRange.h"
+i"CPLayer.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPPlotAreaFrame.h
+c000000004C786496000000000000016F
+t1282958486
+s367
+i"CPBorderedLayer.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPPlotGroup.h
+c000000004C7864960000000000000142
+t1282958486
+s322
+i"CPLayer.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPPlotRange.h
+c000000004C7864960000000000000713
+t1282958486
+s1811
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPPlotSpace.h
+c000000004C7864960000000000000FE7
+t1282958486
+s4071
+i"CPDefinitions.h"
+i"CPResponder.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPPlotSpaceAnnotation.h
+c000000004C7864960000000000000077
+t1282958486
+s119
+i<Foundation/Foundation.h>
+i"CPAnnotation.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPPlotSymbol.h
+c000000004C7864960000000000000822
+t1282958486
+s2082
+i<Foundation/Foundation.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPPolarPlotSpace.h
+c000000004C7864960000000000000075
+t1282958486
+s117
+i<Foundation/Foundation.h>
+i"CPPlotSpace.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPResponder.h
+c000000004C7864960000000000000535
+t1282958486
+s1333
+i<Foundation/Foundation.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPScatterPlot.h
+c000000004C78649600000000000008D8
+t1282958486
+s2264
+i<Foundation/Foundation.h>
+i"CPPlot.h"
+i"CPDefinitions.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPSlateTheme.h
+c000000004C7864960000000000000068
+t1282958486
+s104
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPStocksTheme.h
+c000000004C786496000000000000006A
+t1282958486
+s106
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPTextLayer.h
+c000000004C7864960000000000000224
+t1282958486
+s548
+i"CPLayer.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPTextStyle.h
+c000000004C786496000000000000034B
+t1282958486
+s843
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPTheme.h
+c000000004C78649600000000000004B0
+t1282958486
+s1200
+i<Foundation/Foundation.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPTimeFormatter.h
+c000000004C7864960000000000000175
+t1282958486
+s373
+i<Foundation/Foundation.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPTradingRangePlot.h
+c000000004C78649600000000000009C4
+t1282958486
+s2500
+i<Foundation/Foundation.h>
+i"CPPlot.h"
+i"CPDefinitions.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPUtilities.h
+c000000004C786496000000000000079C
+t1282958486
+s1948
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPXYAxis.h
+c000000004C786496000000000000020E
+t1282958486
+s526
+i<Foundation/Foundation.h>
+i"CPAxis.h"
+i"CPDefinitions.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPXYAxisSet.h
+c000000004C78649600000000000000EB
+t1282958486
+s235
+i<Foundation/Foundation.h>
+i"CPAxisSet.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPXYGraph.h
+c000000004C7864960000000000000154
+t1282958486
+s340
+i<Foundation/Foundation.h>
+i"CPGraph.h"
+i"CPDefinitions.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPXYPlotSpace.h
+c000000004C786496000000000000030F
+t1282958486
+s783
+i"CPPlotSpace.h"
+i"CPDefinitions.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPXYTheme.h
+c000000004C7864960000000000000062
+t1282958486
+s98
+i<Foundation/Foundation.h>
+i"CPTheme.h"
+
+N/d/Accelerometer/core-plot/framework/iPhoneOnly/CPLayerHostingView.h
+c000000004C78649600000000000000BE
+t1282958486
+s190
+i<UIKit/UIKit.h>
+
+N/d/Accelerometer/core-plot/framework/iPhoneOnly/CPPlatformSpecificCategories.h
+c000000004C786496000000000000039E
+t1282958486
+s926
+i<UIKit/UIKit.h>
+i"CPColor.h"
+i"CPLayer.h"
+i"CPPlatformSpecificDefines.h"
+
+N/d/Accelerometer/core-plot/framework/iPhoneOnly/CPPlatformSpecificDefines.h
+c000000004C786496000000000000005B
+t1282958486
+s91
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/d/Accelerometer/core-plot/framework/iPhoneOnly/CPPlatformSpecificFunctions.h
+c000000004C78649600000000000000B6
+t1282958486
+s182
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/d/Accelerometer/main.m
+c000000004C786496000000000000015B
+t1282958486
+s347
+i<UIKit/UIKit.h>
+
+N/var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-arxdgcifdnjapfenclzfiemnagzw/AccelerometerPlot_Prefix.pch.gch
+t1312755004
+s10667932
+
+N/var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-cruvrhuduyaaaefapbbuhbzjiwpd/AccelerometerPlot_Prefix.pch.gch
+t1312755004
+s10209180
+
+NInfo.plist
+c000000004C84550600000000000004B4
+t1283740934
+s1204
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies334447802#334447802#0(0"0(0#1#0"8606486496#0"0#
+
+CCodeSign /d/Accelerometer/build/Debug-iphoneos/Acceleration.app
+r0
+
+CCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/AccelerometerController.o /d/Accelerometer/Classes/AccelerometerController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334447804.837677
+e334447805.004925
+r1
+xCompileC
+xbuild/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/AccelerometerController.o
+x/d/Accelerometer/Classes/AccelerometerController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /d/Accelerometer/Classes/AccelerometerController.m334447804#334447805#0(0"0(0#0#50"/d/Accelerometer/Classes/AccelerometerController.m8609683200#1862"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphoneos -I/d/Accelerometer/build/Debug-iphoneos/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources/armv6 -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources -include /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-cruvrhuduyaaaefapbbuhbzjiwpd/AccelerometerPlot_Prefix.pch -c /d/Accelerometer/Classes/AccelerometerController.m -o /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/AccelerometerController.o0#
+
+CCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/AccelerometerData.o /d/Accelerometer/Classes/AccelerometerData.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334447804.816092
+e334447804.883254
+r1
+xCompileC
+xbuild/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/AccelerometerData.o
+x/d/Accelerometer/Classes/AccelerometerData.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /d/Accelerometer/Classes/AccelerometerData.m334447804#334447804#0(0"0(0#0#44"/d/Accelerometer/Classes/AccelerometerData.m8611298144#1850"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphoneos -I/d/Accelerometer/build/Debug-iphoneos/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources/armv6 -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources -include /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-cruvrhuduyaaaefapbbuhbzjiwpd/AccelerometerPlot_Prefix.pch -c /d/Accelerometer/Classes/AccelerometerData.m -o /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/AccelerometerData.o0#
+
+CCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/AppDelegate.o /d/Accelerometer/Classes/AppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334447804.764514
+e334447804.837591
+r1
+xCompileC
+xbuild/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/AppDelegate.o
+x/d/Accelerometer/Classes/AppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /d/Accelerometer/Classes/AppDelegate.m334447804#334447804#0(0"0(0#0#38"/d/Accelerometer/Classes/AppDelegate.m8603733344#1838"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphoneos -I/d/Accelerometer/build/Debug-iphoneos/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources/armv6 -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources -include /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-cruvrhuduyaaaefapbbuhbzjiwpd/AccelerometerPlot_Prefix.pch -c /d/Accelerometer/Classes/AppDelegate.m -o /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/AppDelegate.o0#
+
+CCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/PlotController.o /d/Accelerometer/Classes/PlotController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334447804.953733
+e334447805.135698
+r1
+xCompileC
+xbuild/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/PlotController.o
+x/d/Accelerometer/Classes/PlotController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /d/Accelerometer/Classes/PlotController.m334447804#334447805#0(0"0(0#0#41"/d/Accelerometer/Classes/PlotController.m8608410336#1844"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphoneos -I/d/Accelerometer/build/Debug-iphoneos/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources/armv6 -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources -include /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-cruvrhuduyaaaefapbbuhbzjiwpd/AccelerometerPlot_Prefix.pch -c /d/Accelerometer/Classes/PlotController.m -o /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/PlotController.o0#
+
+CCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/SoundEffect.o /d/Accelerometer/Classes/SoundEffect.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334447805.135784
+e334447805.184571
+r1
+xCompileC
+xbuild/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/SoundEffect.o
+x/d/Accelerometer/Classes/SoundEffect.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /d/Accelerometer/Classes/SoundEffect.m334447805#334447805#0(0"0(0#0#38"/d/Accelerometer/Classes/SoundEffect.m8606549728#1838"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphoneos -I/d/Accelerometer/build/Debug-iphoneos/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources/armv6 -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources -include /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-cruvrhuduyaaaefapbbuhbzjiwpd/AccelerometerPlot_Prefix.pch -c /d/Accelerometer/Classes/SoundEffect.m -o /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/SoundEffect.o0#
+
+CCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/XPlotController.o /d/Accelerometer/Classes/XPlotController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334447805.005012
+e334447805.075573
+r1
+xCompileC
+xbuild/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/XPlotController.o
+x/d/Accelerometer/Classes/XPlotController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /d/Accelerometer/Classes/XPlotController.m334447805#334447805#0(0"0(0#0#42"/d/Accelerometer/Classes/XPlotController.m8608157600#1846"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphoneos -I/d/Accelerometer/build/Debug-iphoneos/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources/armv6 -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources -include /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-cruvrhuduyaaaefapbbuhbzjiwpd/AccelerometerPlot_Prefix.pch -c /d/Accelerometer/Classes/XPlotController.m -o /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/XPlotController.o0#
+
+CCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/YPlotController.o /d/Accelerometer/Classes/YPlotController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334447805.075657
+e334447805.156724
+r1
+xCompileC
+xbuild/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/YPlotController.o
+x/d/Accelerometer/Classes/YPlotController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /d/Accelerometer/Classes/YPlotController.m334447805#334447805#0(0"0(0#0#42"/d/Accelerometer/Classes/YPlotController.m8607935776#1846"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphoneos -I/d/Accelerometer/build/Debug-iphoneos/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources/armv6 -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources -include /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-cruvrhuduyaaaefapbbuhbzjiwpd/AccelerometerPlot_Prefix.pch -c /d/Accelerometer/Classes/YPlotController.m -o /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/YPlotController.o0#
+
+CCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/ZPlotController.o /d/Accelerometer/Classes/ZPlotController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334447804.883344
+e334447804.953648
+r1
+xCompileC
+xbuild/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/ZPlotController.o
+x/d/Accelerometer/Classes/ZPlotController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /d/Accelerometer/Classes/ZPlotController.m334447804#334447804#0(0"0(0#0#42"/d/Accelerometer/Classes/ZPlotController.m8609273536#1846"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphoneos -I/d/Accelerometer/build/Debug-iphoneos/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources/armv6 -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources -include /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-cruvrhuduyaaaefapbbuhbzjiwpd/AccelerometerPlot_Prefix.pch -c /d/Accelerometer/Classes/ZPlotController.m -o /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/ZPlotController.o0#
+
+CCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/main.o /d/Accelerometer/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334447804.763297
+e334447804.816004
+r1
+xCompileC
+xbuild/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/main.o
+x/d/Accelerometer/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Compile /d/Accelerometer/main.m334447804#334447804#0(0"0(0#0#23"/d/Accelerometer/main.m8604429632#1816"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphoneos -I/d/Accelerometer/build/Debug-iphoneos/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources/armv6 -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources -include /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-cruvrhuduyaaaefapbbuhbzjiwpd/AccelerometerPlot_Prefix.pch -c /d/Accelerometer/main.m -o /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/AccelerometerController.o /d/Accelerometer/Classes/AccelerometerController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334447805.321885
+e334447805.479797
+r1
+xCompileC
+xbuild/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/AccelerometerController.o
+x/d/Accelerometer/Classes/AccelerometerController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /d/Accelerometer/Classes/AccelerometerController.m334447805#334447805#0(0"0(0#0#50"/d/Accelerometer/Classes/AccelerometerController.m8605764096#1862"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphoneos -I/d/Accelerometer/build/Debug-iphoneos/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources/armv7 -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources -include /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-arxdgcifdnjapfenclzfiemnagzw/AccelerometerPlot_Prefix.pch -c /d/Accelerometer/Classes/AccelerometerController.m -o /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/AccelerometerController.o0#
+
+CCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/AccelerometerData.o /d/Accelerometer/Classes/AccelerometerData.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334447805.267338
+e334447805.334254
+r1
+xCompileC
+xbuild/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/AccelerometerData.o
+x/d/Accelerometer/Classes/AccelerometerData.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /d/Accelerometer/Classes/AccelerometerData.m334447805#334447805#0(0"0(0#0#44"/d/Accelerometer/Classes/AccelerometerData.m8605884320#1850"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphoneos -I/d/Accelerometer/build/Debug-iphoneos/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources/armv7 -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources -include /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-arxdgcifdnjapfenclzfiemnagzw/AccelerometerPlot_Prefix.pch -c /d/Accelerometer/Classes/AccelerometerData.m -o /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/AccelerometerData.o0#
+
+CCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/AppDelegate.o /d/Accelerometer/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334447805.202982
+e334447805.267262
+r1
+xCompileC
+xbuild/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/AppDelegate.o
+x/d/Accelerometer/Classes/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /d/Accelerometer/Classes/AppDelegate.m334447805#334447805#0(0"0(0#0#38"/d/Accelerometer/Classes/AppDelegate.m8606285024#1838"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphoneos -I/d/Accelerometer/build/Debug-iphoneos/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources/armv7 -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources -include /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-arxdgcifdnjapfenclzfiemnagzw/AccelerometerPlot_Prefix.pch -c /d/Accelerometer/Classes/AppDelegate.m -o /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/AppDelegate.o0#
+
+CCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/PlotController.o /d/Accelerometer/Classes/PlotController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334447805.413295
+e334447805.594356
+r1
+xCompileC
+xbuild/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/PlotController.o
+x/d/Accelerometer/Classes/PlotController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /d/Accelerometer/Classes/PlotController.m334447805#334447805#0(0"0(0#0#41"/d/Accelerometer/Classes/PlotController.m8611189408#1844"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphoneos -I/d/Accelerometer/build/Debug-iphoneos/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources/armv7 -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources -include /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-arxdgcifdnjapfenclzfiemnagzw/AccelerometerPlot_Prefix.pch -c /d/Accelerometer/Classes/PlotController.m -o /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/PlotController.o0#
+
+CCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/SoundEffect.o /d/Accelerometer/Classes/SoundEffect.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334447805.594441
+e334447805.645326
+r1
+xCompileC
+xbuild/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/SoundEffect.o
+x/d/Accelerometer/Classes/SoundEffect.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /d/Accelerometer/Classes/SoundEffect.m334447805#334447805#0(0"0(0#0#38"/d/Accelerometer/Classes/SoundEffect.m8608428288#1838"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphoneos -I/d/Accelerometer/build/Debug-iphoneos/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources/armv7 -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources -include /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-arxdgcifdnjapfenclzfiemnagzw/AccelerometerPlot_Prefix.pch -c /d/Accelerometer/Classes/SoundEffect.m -o /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/SoundEffect.o0#
+
+CCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/XPlotController.o /d/Accelerometer/Classes/XPlotController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334447805.479877
+e334447805.548772
+r1
+xCompileC
+xbuild/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/XPlotController.o
+x/d/Accelerometer/Classes/XPlotController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /d/Accelerometer/Classes/XPlotController.m334447805#334447805#0(0"0(0#0#42"/d/Accelerometer/Classes/XPlotController.m8609522976#1846"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphoneos -I/d/Accelerometer/build/Debug-iphoneos/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources/armv7 -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources -include /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-arxdgcifdnjapfenclzfiemnagzw/AccelerometerPlot_Prefix.pch -c /d/Accelerometer/Classes/XPlotController.m -o /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/XPlotController.o0#
+
+CCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/YPlotController.o /d/Accelerometer/Classes/YPlotController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334447805.548857
+e334447805.622609
+r1
+xCompileC
+xbuild/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/YPlotController.o
+x/d/Accelerometer/Classes/YPlotController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /d/Accelerometer/Classes/YPlotController.m334447805#334447805#0(0"0(0#0#42"/d/Accelerometer/Classes/YPlotController.m8608933120#1846"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphoneos -I/d/Accelerometer/build/Debug-iphoneos/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources/armv7 -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources -include /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-arxdgcifdnjapfenclzfiemnagzw/AccelerometerPlot_Prefix.pch -c /d/Accelerometer/Classes/YPlotController.m -o /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/YPlotController.o0#
+
+CCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/ZPlotController.o /d/Accelerometer/Classes/ZPlotController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334447805.334334
+e334447805.413209
+r1
+xCompileC
+xbuild/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/ZPlotController.o
+x/d/Accelerometer/Classes/ZPlotController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /d/Accelerometer/Classes/ZPlotController.m334447805#334447805#0(0"0(0#0#42"/d/Accelerometer/Classes/ZPlotController.m8604461600#1846"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphoneos -I/d/Accelerometer/build/Debug-iphoneos/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources/armv7 -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources -include /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-arxdgcifdnjapfenclzfiemnagzw/AccelerometerPlot_Prefix.pch -c /d/Accelerometer/Classes/ZPlotController.m -o /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/ZPlotController.o0#
+
+CCompileC build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/main.o /d/Accelerometer/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334447805.156810
+e334447805.202886
+r1
+xCompileC
+xbuild/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/main.o
+x/d/Accelerometer/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Compile /d/Accelerometer/main.m334447805#334447805#0(0"0(0#0#23"/d/Accelerometer/main.m8606472320#1816"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphoneos -I/d/Accelerometer/build/Debug-iphoneos/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources/armv7 -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources -include /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-arxdgcifdnjapfenclzfiemnagzw/AccelerometerPlot_Prefix.pch -c /d/Accelerometer/main.m -o /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /d/Accelerometer/Accelerometer.xib
+s334447802.819556
+e334447803.375286
+r1
+xCompileXIB
+x/d/Accelerometer/Accelerometer.xib
+lSLF07#2@28"CompileXIB Accelerometer.xib334447802#334447803#0(0"0(0#0#34"/d/Accelerometer/Accelerometer.xib8608963520#487"    cd /d/Accelerometer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/Accelerometer.nib /d/Accelerometer/Accelerometer.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /d/Accelerometer/MainWindow.xib
+s334447802.800345
+e334447803.235317
+r1
+xCompileXIB
+x/d/Accelerometer/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib334447802#334447803#0(0"0(0#0#31"/d/Accelerometer/MainWindow.xib8609283296#481"    cd /d/Accelerometer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/MainWindow.nib /d/Accelerometer/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /d/Accelerometer/ScatterPlot.xib
+s334447803.795119
+e334447804.121012
+r1
+xCompileXIB
+x/d/Accelerometer/ScatterPlot.xib
+lSLF07#2@26"CompileXIB ScatterPlot.xib334447803#334447804#0(0"0(0#0#32"/d/Accelerometer/ScatterPlot.xib8607812384#483"    cd /d/Accelerometer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/ScatterPlot.nib /d/Accelerometer/ScatterPlot.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /d/Accelerometer/SizingView.xib
+s334447803.236264
+e334447803.686987
+r1
+xCompileXIB
+x/d/Accelerometer/SizingView.xib
+lSLF07#2@25"CompileXIB SizingView.xib334447803#334447803#0(0"0(0#0#31"/d/Accelerometer/SizingView.xib8611349856#481"    cd /d/Accelerometer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/SizingView.nib /d/Accelerometer/SizingView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/16-line-chart.png GlyphishIcons/16-line-chart.png
+s334447802.800800
+e334447802.819478
+r1
+xCopyPNGFile
+x/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/16-line-chart.png
+xGlyphishIcons/16-line-chart.png
+lSLF07#2@99"CopyPNGFile build/Debug-iphoneos/Acceleration.app/16-line-chart.png GlyphishIcons/16-line-chart.png334447802#334447802#0(0"0(0#0#48"/d/Accelerometer/GlyphishIcons/16-line-chart.png8609112640#427"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /d/Accelerometer/GlyphishIcons/16-line-chart.png /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/16-line-chart.png0#
+
+CCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/512x512.png GlyphishIcons/512x512.png
+s334447803.554748
+e334447803.759880
+r1
+xCopyPNGFile
+x/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/512x512.png
+xGlyphishIcons/512x512.png
+lSLF07#2@87"CopyPNGFile build/Debug-iphoneos/Acceleration.app/512x512.png GlyphishIcons/512x512.png334447803#334447803#0(0"0(0#0#42"/d/Accelerometer/GlyphishIcons/512x512.png8606453184#415"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /d/Accelerometer/GlyphishIcons/512x512.png /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/512x512.png0#
+
+CCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/57x57.png GlyphishIcons/57x57.png
+s334447803.493254
+e334447803.521978
+r1
+xCopyPNGFile
+x/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/57x57.png
+xGlyphishIcons/57x57.png
+lSLF07#2@83"CopyPNGFile build/Debug-iphoneos/Acceleration.app/57x57.png GlyphishIcons/57x57.png334447803#334447803#0(0"0(0#0#40"/d/Accelerometer/GlyphishIcons/57x57.png8608398784#411"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /d/Accelerometer/GlyphishIcons/57x57.png /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/57x57.png0#
+
+CCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/63-runner.png GlyphishIcons/63-runner.png
+s334447803.450821
+e334447803.468522
+r1
+xCopyPNGFile
+x/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/63-runner.png
+xGlyphishIcons/63-runner.png
+lSLF07#2@91"CopyPNGFile build/Debug-iphoneos/Acceleration.app/63-runner.png GlyphishIcons/63-runner.png334447803#334447803#0(0"0(0#0#44"/d/Accelerometer/GlyphishIcons/63-runner.png8609208576#419"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /d/Accelerometer/GlyphishIcons/63-runner.png /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/63-runner.png0#
+
+CCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/72x72.png GlyphishIcons/72x72.png
+s334447803.522056
+e334447803.554669
+r1
+xCopyPNGFile
+x/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/72x72.png
+xGlyphishIcons/72x72.png
+lSLF07#2@83"CopyPNGFile build/Debug-iphoneos/Acceleration.app/72x72.png GlyphishIcons/72x72.png334447803#334447803#0(0"0(0#0#40"/d/Accelerometer/GlyphishIcons/72x72.png8606664256#411"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /d/Accelerometer/GlyphishIcons/72x72.png /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/72x72.png0#
+
+CCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/Icon-Small-50.png GlyphishIcons/Icon-Small-50.png
+s334447803.468598
+e334447803.493177
+r1
+xCopyPNGFile
+x/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/Icon-Small-50.png
+xGlyphishIcons/Icon-Small-50.png
+lSLF07#2@99"CopyPNGFile build/Debug-iphoneos/Acceleration.app/Icon-Small-50.png GlyphishIcons/Icon-Small-50.png334447803#334447803#0(0"0(0#0#48"/d/Accelerometer/GlyphishIcons/Icon-Small-50.png8608970208#427"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /d/Accelerometer/GlyphishIcons/Icon-Small-50.png /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/Icon-Small-50.png0#
+
+CCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/blue.png GlyphishIcons/blue.png
+s334447803.375359
+e334447803.402166
+r1
+xCopyPNGFile
+x/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/blue.png
+xGlyphishIcons/blue.png
+lSLF07#2@81"CopyPNGFile build/Debug-iphoneos/Acceleration.app/blue.png GlyphishIcons/blue.png334447803#334447803#0(0"0(0#0#39"/d/Accelerometer/GlyphishIcons/blue.png8609614336#409"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /d/Accelerometer/GlyphishIcons/blue.png /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/blue.png0#
+
+CCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/clock-22x22.png GlyphishIcons/clock-22x22.png
+s334447803.706011
+e334447803.723800
+r1
+xCopyPNGFile
+x/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/clock-22x22.png
+xGlyphishIcons/clock-22x22.png
+lSLF07#2@95"CopyPNGFile build/Debug-iphoneos/Acceleration.app/clock-22x22.png GlyphishIcons/clock-22x22.png334447803#334447803#0(0"0(0#0#46"/d/Accelerometer/GlyphishIcons/clock-22x22.png8606225184#423"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /d/Accelerometer/GlyphishIcons/clock-22x22.png /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/clock-22x22.png0#
+
+CCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/clock-32x32.png GlyphishIcons/clock-32x32.png
+s334447803.687058
+e334447803.705872
+r1
+xCopyPNGFile
+x/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/clock-32x32.png
+xGlyphishIcons/clock-32x32.png
+lSLF07#2@95"CopyPNGFile build/Debug-iphoneos/Acceleration.app/clock-32x32.png GlyphishIcons/clock-32x32.png334447803#334447803#0(0"0(0#0#46"/d/Accelerometer/GlyphishIcons/clock-32x32.png8606321184#423"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /d/Accelerometer/GlyphishIcons/clock-32x32.png /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/clock-32x32.png0#
+
+CCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/email.png GlyphishIcons/email.png
+s334447803.761227
+e334447803.795043
+r1
+xCopyPNGFile
+x/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/email.png
+xGlyphishIcons/email.png
+lSLF07#2@83"CopyPNGFile build/Debug-iphoneos/Acceleration.app/email.png GlyphishIcons/email.png334447803#334447803#0(0"0(0#0#40"/d/Accelerometer/GlyphishIcons/email.png8607965888#411"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /d/Accelerometer/GlyphishIcons/email.png /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/email.png0#
+
+CCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/green.png GlyphishIcons/green.png
+s334447803.428893
+e334447803.450746
+r1
+xCopyPNGFile
+x/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/green.png
+xGlyphishIcons/green.png
+lSLF07#2@83"CopyPNGFile build/Debug-iphoneos/Acceleration.app/green.png GlyphishIcons/green.png334447803#334447803#0(0"0(0#0#40"/d/Accelerometer/GlyphishIcons/green.png8609292384#411"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /d/Accelerometer/GlyphishIcons/green.png /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/green.png0#
+
+CCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/red.png GlyphishIcons/red.png
+s334447803.402310
+e334447803.428811
+r1
+xCopyPNGFile
+x/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/red.png
+xGlyphishIcons/red.png
+lSLF07#2@79"CopyPNGFile build/Debug-iphoneos/Acceleration.app/red.png GlyphishIcons/red.png334447803#334447803#0(0"0(0#0#38"/d/Accelerometer/GlyphishIcons/red.png8609415584#407"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /d/Accelerometer/GlyphishIcons/red.png /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/red.png0#
+
+CCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/samplesPerSecond.PNG GlyphishIcons/samplesPerSecond.PNG
+s334447803.796173
+e334447803.820086
+r1
+xCopyPNGFile
+x/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/samplesPerSecond.PNG
+xGlyphishIcons/samplesPerSecond.PNG
+lSLF07#2@105"CopyPNGFile build/Debug-iphoneos/Acceleration.app/samplesPerSecond.PNG GlyphishIcons/samplesPerSecond.PNG334447803#334447803#0(0"0(0#0#51"/d/Accelerometer/GlyphishIcons/samplesPerSecond.PNG8606630368#433"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /d/Accelerometer/GlyphishIcons/samplesPerSecond.PNG /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/samplesPerSecond.PNG0#
+
+CCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/start.png GlyphishIcons/start.png
+s334447803.725213
+e334447803.761177
+r1
+xCopyPNGFile
+x/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/start.png
+xGlyphishIcons/start.png
+lSLF07#2@83"CopyPNGFile build/Debug-iphoneos/Acceleration.app/start.png GlyphishIcons/start.png334447803#334447803#0(0"0(0#0#40"/d/Accelerometer/GlyphishIcons/start.png8608126688#411"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /d/Accelerometer/GlyphishIcons/start.png /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/start.png0#
+
+CCopyPNGFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/stop.png GlyphishIcons/stop.png
+s334447803.759953
+e334447803.796071
+r1
+xCopyPNGFile
+x/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/stop.png
+xGlyphishIcons/stop.png
+lSLF07#2@81"CopyPNGFile build/Debug-iphoneos/Acceleration.app/stop.png GlyphishIcons/stop.png334447803#334447803#0(0"0(0#0#39"/d/Accelerometer/GlyphishIcons/stop.png8608007872#409"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /d/Accelerometer/GlyphishIcons/stop.png /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/stop.png0#
+
+CCpResource build/Debug-iphoneos/Acceleration.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+s334447802.794996
+e334447802.800290
+r1
+xCpResource
+xbuild/Debug-iphoneos/Acceleration.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist334447802#334447802#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist8611094112#455"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /d/Accelerometer/build/Debug-iphoneos/Acceleration.app0#
+
+CCpResource build/Debug-iphoneos/Acceleration.app/Settings.bundle Settings.bundle
+s334447803.235390
+e334447803.239784
+r1
+xCpResource
+xbuild/Debug-iphoneos/Acceleration.app/Settings.bundle
+xSettings.bundle
+lSLF07#2@20"Copy Settings.bundle334447803#334447803#0(0"0(0#0#32"/d/Accelerometer/Settings.bundle8612259104#398"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /d/Accelerometer/Settings.bundle /d/Accelerometer/build/Debug-iphoneos/Acceleration.app0#
+
+CCpResource build/Debug-iphoneos/Acceleration.app/calibrateSound.caf Sounds/calibrateSound.caf
+s334447803.723873
+e334447803.727868
+r1
+xCpResource
+xbuild/Debug-iphoneos/Acceleration.app/calibrateSound.caf
+xSounds/calibrateSound.caf
+lSLF07#2@30"Copy Sounds/calibrateSound.caf334447803#334447803#0(0"0(0#0#42"/d/Accelerometer/Sounds/calibrateSound.caf8608366368#408"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /d/Accelerometer/Sounds/calibrateSound.caf /d/Accelerometer/build/Debug-iphoneos/Acceleration.app0#
+
+CCpResource build/Debug-iphoneos/Acceleration.app/startSound.caf Sounds/startSound.caf
+s334447803.724381
+e334447803.728589
+r1
+xCpResource
+xbuild/Debug-iphoneos/Acceleration.app/startSound.caf
+xSounds/startSound.caf
+lSLF07#2@26"Copy Sounds/startSound.caf334447803#334447803#0(0"0(0#0#38"/d/Accelerometer/Sounds/startSound.caf8608258112#404"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /d/Accelerometer/Sounds/startSound.caf /d/Accelerometer/build/Debug-iphoneos/Acceleration.app0#
+
+CCpResource build/Debug-iphoneos/Acceleration.app/stopSound.caf Sounds/stopSound.caf
+s334447803.724792
+e334447803.731236
+r1
+xCpResource
+xbuild/Debug-iphoneos/Acceleration.app/stopSound.caf
+xSounds/stopSound.caf
+lSLF07#2@25"Copy Sounds/stopSound.caf334447803#334447803#0(0"0(0#0#37"/d/Accelerometer/Sounds/stopSound.caf8608179040#403"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /d/Accelerometer/Sounds/stopSound.caf /d/Accelerometer/build/Debug-iphoneos/Acceleration.app0#
+
+CCreateUniversalBinary /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/Acceleration normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app.dSYM /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/Acceleration
+r0
+
+CLd /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/Acceleration normal armv6
+s334447805.184655
+e334447805.321771
+r1
+xLd
+x/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/Acceleration
+xnormal
+xarmv6
+lSLF07#2@119"Link /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/Acceleration334447805#334447805#0(0"0(0#0#0"8606406784#945"    cd /d/Accelerometer    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/d/Accelerometer/build/Debug-iphoneos -F/d/Accelerometer/build/Debug-iphoneos -filelist /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/Acceleration.LinkFileList -dead_strip -all_load -ObjC -miphoneos-version-min=3.0 /d/Accelerometer/core-plot/build/Debug-iphoneos/libCorePlot-CocoaTouch.a -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -framework MessageUI -framework AudioToolbox -o /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv6/Acceleration0#
+
+CLd /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/Acceleration normal armv7
+s334447805.645409
+e334447805.681252
+r0
+xLd
+x/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/Acceleration
+xnormal
+xarmv7
+old: warning: ignoring file /d/Accelerometer/core-plot/build/Debug-iphoneos/libCorePlot-CocoaTouch.a, file was built for archive which is not the architecture being linked (armv7)
+oUndefined symbols for architecture armv7:
+o  "_OBJC_CLASS_$_CPPlotRange", referenced from:
+o      objc-class-ref in PlotController.o
+o  "_OBJC_CLASS_$_CPXYGraph", referenced from:
+o      objc-class-ref in PlotController.o
+o  "_OBJC_CLASS_$_CPLineStyle", referenced from:
+o      objc-class-ref in PlotController.o
+o  "_OBJC_CLASS_$_CPScatterPlot", referenced from:
+o      objc-class-ref in PlotController.o
+o  "_CPDecimalFromString", referenced from:
+o      -[PlotController updatePlot] in PlotController.o
+o  "_OBJC_CLASS_$_CPColor", referenced from:
+o      objc-class-ref in PlotController.o
+o  "_CPDecimalFromFloat", referenced from:
+o      -[PlotController updatePlot] in PlotController.o
+o  "_kCPPlainWhiteTheme", referenced from:
+o      -[PlotController viewDidLoad] in PlotController.o
+o  "_OBJC_CLASS_$_CPLayerHostingView", referenced from:
+o      objc-class-ref in PlotController.o
+o  "_OBJC_CLASS_$_CPTheme", referenced from:
+o      objc-class-ref in PlotController.o
+old: symbol(s) not found for architecture armv7
+ocollect2: ld returned 1 exit status
+lSLF07#2@119"Link /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/Acceleration334447805#334447805#0(1219"ld: warning: ignoring file /d/Accelerometer/core-plot/build/Debug-iphoneos/libCorePlot-CocoaTouch.a, file was built for archive which is not the architecture being linked (armv7)Undefined symbols for architecture armv7:  "_OBJC_CLASS_$_CPPlotRange", referenced from:      objc-class-ref in PlotController.o  "_OBJC_CLASS_$_CPXYGraph", referenced from:      objc-class-ref in PlotController.o  "_OBJC_CLASS_$_CPLineStyle", referenced from:      objc-class-ref in PlotController.o  "_OBJC_CLASS_$_CPScatterPlot", referenced from:      objc-class-ref in PlotController.o  "_CPDecimalFromString", referenced from:      -[PlotController updatePlot] in PlotController.o  "_OBJC_CLASS_$_CPColor", referenced from:      objc-class-ref in PlotController.o  "_CPDecimalFromFloat", referenced from:      -[PlotController updatePlot] in PlotController.o  "_kCPPlainWhiteTheme", referenced from:      -[PlotController viewDidLoad] in PlotController.o  "_OBJC_CLASS_$_CPLayerHostingView", referenced from:      objc-class-ref in PlotController.o  "_OBJC_CLASS_$_CPTheme", referenced from:      objc-class-ref in PlotController.old: symbol(s) not found for architecture armv7collect2: ld returned 1 exit status23(22@165"Ignoring file /d/Accelerometer/core-plot/build/Debug-iphoneos/libCorePlot-CocoaTouch.a, file was built for archive which is not the architecture being linked (armv7)334447805#0#179#0(6@0"334447805#0#0#0#0#0"0(4@45""_OBJC_CLASS_$_CPPlotRange", referenced from:334447805#221#48#0(6@0"334447805#0#0#0#0#0"0(13@34"Objc-class-ref in PlotController.o334447805#269#41#0(6@0"334447805#0#0#0#0#0"0(4@43""_OBJC_CLASS_$_CPXYGraph", referenced from:334447805#310#46#0(6@0"334447805#0#0#0#0#0"0(13@34"Objc-class-ref in PlotController.o334447805#356#41#0(6@0"334447805#0#0#0#0#0"0(4@45""_OBJC_CLASS_$_CPLineStyle", referenced from:334447805#397#48#0(6@0"334447805#0#0#0#0#0"0(13@34"Objc-class-ref in PlotController.o334447805#445#41#0(6@0"334447805#0#0#0#0#0"0(4@47""_OBJC_CLASS_$_CPScatterPlot", referenced from:334447805#486#50#0(6@0"334447805#0#0#0#0#0"0(13@34"Objc-class-ref in PlotController.o334447805#536#41#0(6@0"334447805#0#0#0#0#0"0(4@40""_CPDecimalFromString", referenced from:334447805#577#43#0(6@0"334447805#0#0#0#0#0"0(13@48"-[PlotController updatePlot] in PlotController.o334447805#620#55#0(6@0"334447805#0#0#0#0#0"0(4@41""_OBJC_CLASS_$_CPColor", referenced from:334447805#675#44#0(6@0"334447805#0#0#0#0#0"0(13@34"Objc-class-ref in PlotController.o334447805#719#41#0(6@0"334447805#0#0#0#0#0"0(4@39""_CPDecimalFromFloat", referenced from:334447805#760#42#0(6@0"334447805#0#0#0#0#0"0(13@48"-[PlotController updatePlot] in PlotController.o334447805#802#55#0(6@0"334447805#0#0#0#0#0"0(4@39""_kCPPlainWhiteTheme", referenced from:334447805#857#42#0(6@0"334447805#0#0#0#0#0"0(13@49"-[PlotController viewDidLoad] in PlotController.o334447805#899#56#0(6@0"334447805#0#0#0#0#0"0(4@52""_OBJC_CLASS_$_CPLayerHostingView", referenced from:334447805#955#55#0(6@0"334447805#0#0#0#0#0"0(13@34"Objc-class-ref in PlotController.o334447805#1010#41#0(6@0"334447805#0#0#0#0#0"0(4@41""_OBJC_CLASS_$_CPTheme", referenced from:334447805#1051#44#0(6@0"334447805#0#0#0#0#0"0(13@34"Objc-class-ref in PlotController.o334447805#1095#41#0(6@0"334447805#0#0#0#0#0"0(13@42"Symbol(s) not found for architecture armv7334447805#1136#47#0(6@0"334447805#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status334447805#1183#36#0(6@0"334447805#0#0#0#0#0"0(0#0#0"8608262976#945"    cd /d/Accelerometer    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/d/Accelerometer/build/Debug-iphoneos -F/d/Accelerometer/build/Debug-iphoneos -filelist /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/Acceleration.LinkFileList -dead_strip -all_load -ObjC -miphoneos-version-min=3.0 /d/Accelerometer/core-plot/build/Debug-iphoneos/libCorePlot-CocoaTouch.a -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -framework MessageUI -framework AudioToolbox -o /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Objects-normal/armv7/Acceleration1#
+
+CLd /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/Acceleration normal armv6
+r0
+
+CProcessInfoPlistFile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/Info.plist Info.plist
+s334447802.795581
+e334447802.798360
+r1
+xProcessInfoPlistFile
+x/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist334447802#334447802#0(0"0(0#0#27"/d/Accelerometer/Info.plist8609669216#481"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info.plist -genpkginfo /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/ResourceRules.plist -o /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/Info.plist0#
+
+CProcessPCH /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-arxdgcifdnjapfenclzfiemnagzw/AccelerometerPlot_Prefix.pch.gch AccelerometerPlot_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334447804.121810
+e334447804.763165
+r1
+xProcessPCH
+x/var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-arxdgcifdnjapfenclzfiemnagzw/AccelerometerPlot_Prefix.pch.gch
+xAccelerometerPlot_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile AccelerometerPlot_Prefix.pch334447804#334447804#0(0"0(0#0#45"/d/Accelerometer/AccelerometerPlot_Prefix.pch8605809056#1731"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphoneos -I/d/Accelerometer/build/Debug-iphoneos/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources/armv7 -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources -c /d/Accelerometer/AccelerometerPlot_Prefix.pch -o /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-arxdgcifdnjapfenclzfiemnagzw/AccelerometerPlot_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-cruvrhuduyaaaefapbbuhbzjiwpd/AccelerometerPlot_Prefix.pch.gch AccelerometerPlot_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334447804.121113
+e334447804.687068
+r1
+xProcessPCH
+x/var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-cruvrhuduyaaaefapbbuhbzjiwpd/AccelerometerPlot_Prefix.pch.gch
+xAccelerometerPlot_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile AccelerometerPlot_Prefix.pch334447804#334447804#0(0"0(0#0#45"/d/Accelerometer/AccelerometerPlot_Prefix.pch8606481888#1731"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphoneos -I/d/Accelerometer/build/Debug-iphoneos/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources/armv6 -I/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/DerivedSources -c /d/Accelerometer/AccelerometerPlot_Prefix.pch -o /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-cruvrhuduyaaaefapbbuhbzjiwpd/AccelerometerPlot_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/macman/Library/MobileDevice/Provisioning Profiles/E7B27763-001C-4BB3-8340-1698E45E22B2.mobileprovision" /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/embedded.mobileprovision
+s334447805.681329
+e334447805.682231
+r1
+xProcessProductPackaging
+x/Users/macman/Library/MobileDevice/Provisioning Profiles/E7B27763-001C-4BB3-8340-1698E45E22B2.mobileprovision
+x/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/embedded.mobileprovision
+lSLF07#2@198"ProcessProductPackaging "/Users/macman/Library/MobileDevice/Provisioning Profiles/E7B27763-001C-4BB3-8340-1698E45E22B2.mobileprovision" build/Debug-iphoneos/Acceleration.app/embedded.mobileprovision334447805#334447805#0(0"0(0#0#79"/d/Accelerometer/build/Debug-iphoneos/Acceleration.app/embedded.mobileprovision8608001280#385"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/macman/Library/MobileDevice/Provisioning Profiles/E7B27763-001C-4BB3-8340-1698E45E22B2.mobileprovision" -o /d/Accelerometer/build/Debug-iphoneos/Acceleration.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration.xcent
+s334447805.682285
+e334447805.706819
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration.xcent
+lSLF07#2@195"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration.xcent334447805#334447805#0(0"0(0#0#99"/d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration.xcent8606619552#408"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /d/Accelerometer/build/Acceleration.build/Debug-iphoneos/AccelerometerPlot.build/Acceleration.xcent0#
+
+CTouch /d/Accelerometer/build/Debug-iphoneos/Acceleration.app
+r0
+

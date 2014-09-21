@@ -1,0 +1,1344 @@
+TAccelerometerPlot
+v7
+r0
+t334447746.708097
+cCheck dependencies
+cProcessInfoPlistFile /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/Info.plist Info.plist
+cCompileXIB /d/Accelerometer/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/Acceleration.app/16-line-chart.png GlyphishIcons/16-line-chart.png
+cCompileXIB /d/Accelerometer/Accelerometer.xib
+cCpResource build/Debug-iphonesimulator/Acceleration.app/Settings.bundle Settings.bundle
+cCompileXIB /d/Accelerometer/SizingView.xib
+cCpResource build/Debug-iphonesimulator/Acceleration.app/blue.png GlyphishIcons/blue.png
+cCpResource build/Debug-iphonesimulator/Acceleration.app/red.png GlyphishIcons/red.png
+cCpResource build/Debug-iphonesimulator/Acceleration.app/green.png GlyphishIcons/green.png
+cCpResource build/Debug-iphonesimulator/Acceleration.app/63-runner.png GlyphishIcons/63-runner.png
+cCpResource build/Debug-iphonesimulator/Acceleration.app/Icon-Small-50.png GlyphishIcons/Icon-Small-50.png
+cCpResource build/Debug-iphonesimulator/Acceleration.app/57x57.png GlyphishIcons/57x57.png
+cCpResource build/Debug-iphonesimulator/Acceleration.app/72x72.png GlyphishIcons/72x72.png
+cCpResource build/Debug-iphonesimulator/Acceleration.app/512x512.png GlyphishIcons/512x512.png
+cCpResource build/Debug-iphonesimulator/Acceleration.app/clock-32x32.png GlyphishIcons/clock-32x32.png
+cCpResource build/Debug-iphonesimulator/Acceleration.app/clock-22x22.png GlyphishIcons/clock-22x22.png
+cCpResource build/Debug-iphonesimulator/Acceleration.app/calibrateSound.caf Sounds/calibrateSound.caf
+cCpResource build/Debug-iphonesimulator/Acceleration.app/startSound.caf Sounds/startSound.caf
+cCpResource build/Debug-iphonesimulator/Acceleration.app/stopSound.caf Sounds/stopSound.caf
+cCpResource build/Debug-iphonesimulator/Acceleration.app/start.png GlyphishIcons/start.png
+cCpResource build/Debug-iphonesimulator/Acceleration.app/stop.png GlyphishIcons/stop.png
+cCpResource build/Debug-iphonesimulator/Acceleration.app/email.png GlyphishIcons/email.png
+cCompileXIB /d/Accelerometer/ScatterPlot.xib
+cCpResource build/Debug-iphonesimulator/Acceleration.app/samplesPerSecond.PNG GlyphishIcons/samplesPerSecond.PNG
+cProcessPCH /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-auggdwhjovpcjladoceopiyndfrr/AccelerometerPlot_Prefix.pch.gch AccelerometerPlot_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/main.o /d/Accelerometer/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/AppDelegate.o /d/Accelerometer/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/AccelerometerData.o /d/Accelerometer/Classes/AccelerometerData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/AccelerometerController.o /d/Accelerometer/Classes/AccelerometerController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/ZPlotController.o /d/Accelerometer/Classes/ZPlotController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/PlotController.o /d/Accelerometer/Classes/PlotController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/XPlotController.o /d/Accelerometer/Classes/XPlotController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/YPlotController.o /d/Accelerometer/Classes/YPlotController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/SoundEffect.o /d/Accelerometer/Classes/SoundEffect.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/Acceleration normal i386
+cGenerateDSYMFile /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app.dSYM /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/Acceleration
+cTouch /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004D54CF5D0000000000205F50
+t1297403741
+s2121552
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioServices.h
+c000000004D54CF4A0000000000010AD5
+t1297403722
+s68309
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.h
+c000000004D5DE85400000000000000CD
+t1297999956
+s205
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004D5DE869000000000009B020
+t1297999977
+s634912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004D54D2DD00000000000000C4
+t1297404637
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004D54D4200000000000162C50
+t1297404960
+s1453136
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/d/Accelerometer/Accelerometer.xib
+c000000004C87F8A0000000000000CE47
+t1283979424
+s52807
+
+N/d/Accelerometer/AccelerometerPlot_Prefix.pch
+c000000004C78649600000000000000BD
+t1282958486
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/d/Accelerometer/Classes/AccelerometerController.h
+c000000004C82FA580000000000000841
+t1283652184
+s2113
+i<UIKit/UIKit.h>
+i<MessageUI/MessageUI.h>
+i"AccelerometerData.h"
+i"SoundEffect.h"
+
+N/d/Accelerometer/Classes/AccelerometerController.m
+c000000004C87F8A00000000000002969
+t1283979424
+s10601
+i"AccelerometerController.h"
+
+N/d/Accelerometer/Classes/AccelerometerData.h
+c000000004C7864960000000000000398
+t1282958486
+s920
+
+N/d/Accelerometer/Classes/AccelerometerData.m
+c000000004C78649600000000000001D5
+t1282958486
+s469
+i"AccelerometerData.h"
+
+N/d/Accelerometer/Classes/AppDelegate.h
+c000000004C786496000000000000021A
+t1282958486
+s538
+i<UIKit/UIKit.h>
+
+N/d/Accelerometer/Classes/AppDelegate.m
+c000000004C78649600000000000002DC
+t1282958486
+s732
+i"AppDelegate.h"
+
+N/d/Accelerometer/Classes/PlotController.h
+c000000004C87F8A00000000000000666
+t1283979424
+s1638
+i"CorePlot-CocoaTouch.h"
+i"AccelerometerData.h"
+
+N/d/Accelerometer/Classes/PlotController.m
+c000000004C87F8A000000000000023DC
+t1283979424
+s9180
+i"PlotController.h"
+
+N/d/Accelerometer/Classes/SoundEffect.h
+c000000004C82FA580000000000000ACF
+t1283652184
+s2767
+i<UIKit/UIKit.h>
+i<AudioToolbox/AudioServices.h>
+
+N/d/Accelerometer/Classes/SoundEffect.m
+c000000004C82FA580000000000000E4A
+t1283652184
+s3658
+i"SoundEffect.h"
+
+N/d/Accelerometer/Classes/XPlotController.h
+c000000004C7864960000000000000070
+t1282958486
+s112
+i"CorePlot-CocoaTouch.h"
+i"PlotController.h"
+
+N/d/Accelerometer/Classes/XPlotController.m
+c000000004C7864960000000000000124
+t1282958486
+s292
+i"XPlotController.h"
+
+N/d/Accelerometer/Classes/YPlotController.h
+c000000004C786496000000000000006F
+t1282958486
+s111
+i"CorePlot-CocoaTouch.h"
+i"PlotController.h"
+
+N/d/Accelerometer/Classes/YPlotController.m
+c000000004C786496000000000000011F
+t1282958486
+s287
+i"YPlotController.h"
+
+N/d/Accelerometer/Classes/ZPlotController.h
+c000000004C7864960000000000000070
+t1282958486
+s112
+i"CorePlot-CocoaTouch.h"
+i"PlotController.h"
+
+N/d/Accelerometer/Classes/ZPlotController.m
+c000000004C786496000000000000011F
+t1282958486
+s287
+i"ZPlotController.h"
+
+N/d/Accelerometer/GlyphishIcons/16-line-chart.png
+c000000004C7864960000000000000226
+t1282958486
+s550
+
+N/d/Accelerometer/GlyphishIcons/512x512.png
+c000000004C786496000000000000F8DB
+t1282958486
+s63707
+
+N/d/Accelerometer/GlyphishIcons/57x57.png
+c000000004C7864960000000000001B57
+t1282958486
+s6999
+
+N/d/Accelerometer/GlyphishIcons/63-runner.png
+c000000004C786496000000000000015E
+t1282958486
+s350
+
+N/d/Accelerometer/GlyphishIcons/72x72.png
+c000000004C78649600000000000022D2
+t1282958486
+s8914
+
+N/d/Accelerometer/GlyphishIcons/Icon-Small-50.png
+c000000004C7864960000000000001829
+t1282958486
+s6185
+
+N/d/Accelerometer/GlyphishIcons/blue.png
+c000000004C7864960000000000000B57
+t1282958486
+s2903
+
+N/d/Accelerometer/GlyphishIcons/clock-22x22.png
+c000000004C82FA5800000000000006AD
+t1283652184
+s1709
+
+N/d/Accelerometer/GlyphishIcons/clock-32x32.png
+c000000004C82FA580000000000000AD4
+t1283652184
+s2772
+
+N/d/Accelerometer/GlyphishIcons/email.png
+c000000004C82FA58000000000000153A
+t1283652184
+s5434
+
+N/d/Accelerometer/GlyphishIcons/green.png
+c000000004C7864960000000000000A7B
+t1282958486
+s2683
+
+N/d/Accelerometer/GlyphishIcons/red.png
+c000000004C7864960000000000000F73
+t1282958486
+s3955
+
+N/d/Accelerometer/GlyphishIcons/samplesPerSecond.PNG
+c000000004C831F9300000000000013B8
+t1283661715
+s5048
+
+N/d/Accelerometer/GlyphishIcons/start.png
+c000000004C82FA580000000000001F4B
+t1283652184
+s8011
+
+N/d/Accelerometer/GlyphishIcons/stop.png
+c000000004C82FA580000000000002055
+t1283652184
+s8277
+
+N/d/Accelerometer/MainWindow.xib
+c000000004C82FA58000000000000AA3E
+t1283652184
+s43582
+
+N/d/Accelerometer/ScatterPlot.xib
+c000000004C82FA58000000000000514A
+t1283652184
+s20810
+
+N/d/Accelerometer/Settings.bundle
+c000000004E3F0A1F0000000000000088
+t1312754207
+s136
+
+N/d/Accelerometer/SizingView.xib
+c000000004C858E22000000000000906C
+t1283821090
+s36972
+
+N/d/Accelerometer/Sounds/calibrateSound.caf
+c000000004C82FA580000000000006622
+t1283652184
+s26146
+
+N/d/Accelerometer/Sounds/startSound.caf
+c000000004C82FA580000000000006622
+t1283652184
+s26146
+
+N/d/Accelerometer/Sounds/stopSound.caf
+c000000004C82FA580000000000036D54
+t1283652184
+s224596
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/Acceleration.LinkFileList
+c000000004E3F0D000000000000000464
+t1312754944
+s1124
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/AccelerometerController.o
+t1312754946
+s101212
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/AccelerometerData.o
+t1312754946
+s20888
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/AppDelegate.o
+t1312754946
+s54592
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/PlotController.o
+t1312754946
+s96500
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/SoundEffect.o
+t1312754946
+s10912
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/XPlotController.o
+t1312754946
+s44728
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/YPlotController.o
+t1312754946
+s44684
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/ZPlotController.o
+t1312754946
+s44684
+
+N/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/main.o
+t1312754946
+s6324
+
+N/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app
+t1312754946
+s952
+
+N/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app.dSYM
+t1312754946
+s102
+
+N/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/16-line-chart.png
+t1312754944
+s550
+
+N/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/512x512.png
+t1312754945
+s63707
+
+N/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/57x57.png
+t1312754945
+s6999
+
+N/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/63-runner.png
+t1312754945
+s350
+
+N/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/72x72.png
+t1312754945
+s8914
+
+N/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/Acceleration
+t1312754946
+s638348
+
+N/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/Accelerometer.nib
+t1312754945
+s8743
+
+N/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/Icon-Small-50.png
+t1312754945
+s6185
+
+N/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/Info.plist
+t1312754944
+s807
+
+N/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/MainWindow.nib
+t1312754944
+s3694
+
+N/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/PkgInfo
+t1312754944
+s8
+
+N/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/ScatterPlot.nib
+t1312754945
+s1325
+
+N/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/Settings.bundle
+t1312754945
+s136
+
+N/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/SizingView.nib
+t1312754945
+s6190
+
+N/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/blue.png
+t1312754945
+s2903
+
+N/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/calibrateSound.caf
+t1312754945
+s26146
+
+N/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/clock-22x22.png
+t1312754945
+s1709
+
+N/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/clock-32x32.png
+t1312754945
+s2772
+
+N/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/email.png
+t1312754945
+s5434
+
+N/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/green.png
+t1312754945
+s2683
+
+N/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/red.png
+t1312754945
+s3955
+
+N/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/samplesPerSecond.PNG
+t1312754945
+s5048
+
+N/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/start.png
+t1312754945
+s8011
+
+N/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/startSound.caf
+t1312754945
+s26146
+
+N/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/stop.png
+t1312754945
+s8277
+
+N/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/stopSound.caf
+t1312754945
+s224596
+
+N/d/Accelerometer/core-plot/build/Debug-iphonesimulator/libCorePlot-CocoaTouch.a
+c000000004E3F0D0000000000001914D0
+t1312754944
+s1643728
+
+N/d/Accelerometer/core-plot/framework/CorePlot-CocoaTouch.h
+c000000004C786496000000000000060C
+t1282958486
+s1548
+i"CPAnimation.h"
+i"CPAnimationKeyFrame.h"
+i"CPAnimationTransition.h"
+i"CPAnnotation.h"
+i"CPAnnotationHostLayer.h"
+i"CPAxis.h"
+i"CPAxisLabel.h"
+i"CPAxisLabelGroup.h"
+i"CPAxisSet.h"
+i"CPAxisTitle.h"
+i"CPBarPlot.h"
+i"CPBorderedLayer.h"
+i"CPColor.h"
+i"CPColorSpace.h"
+i"CPConstrainedPosition.h"
+i"CPDarkGradientTheme.h"
+i"CPDefinitions.h"
+i"CPExceptions.h"
+i"CPFill.h"
+i"CPGradient.h"
+i"CPGraph.h"
+i"CPGridLines.h"
+i"CPImage.h"
+i"CPLayer.h"
+i"CPLayerAnnotation.h"
+i"CPLayerHostingView.h"
+i"CPLayoutManager.h"
+i"CPLineStyle.h"
+i"CPPieChart.h"
+i"CPPlainBlackTheme.h"
+i"CPPlainWhiteTheme.h"
+i"CPPlatformSpecificDefines.h"
+i"CPPlatformSpecificFunctions.h"
+i"CPPlatformSpecificCategories.h"
+i"CPPathExtensions.h"
+i"CPPlot.h"
+i"CPPlotAreaFrame.h"
+i"CPPlotGroup.h"
+i"CPPlotRange.h"
+i"CPPlotSpace.h"
+i"CPPlotSpaceAnnotation.h"
+i"CPPlotSymbol.h"
+i"CPPolarPlotSpace.h"
+i"CPResponder.h"
+i"CPScatterPlot.h"
+i"CPSlateTheme.h"
+i"CPSlateTheme.h"
+i"CPStocksTheme.h"
+i"CPTextLayer.h"
+i"CPTextStyle.h"
+i"CPTheme.h"
+i"CPTimeFormatter.h"
+i"CPTradingRangePlot.h"
+i"CPUtilities.h"
+i"CPXYAxis.h"
+i"CPXYAxisSet.h"
+i"CPXYGraph.h"
+i"CPXYPlotSpace.h"
+i"CPXYTheme.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPAnimation.h
+c000000004C786496000000000000054C
+t1282958486
+s1356
+i<Foundation/Foundation.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPAnimationKeyFrame.h
+c000000004C78649600000000000001B6
+t1282958486
+s438
+i<Foundation/Foundation.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPAnimationTransition.h
+c000000004C7864960000000000000461
+t1282958486
+s1121
+i<Foundation/Foundation.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPAnnotation.h
+c000000004C78649600000000000002B9
+t1282958486
+s697
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPAnnotationHostLayer.h
+c000000004C7864960000000000000143
+t1282958486
+s323
+i"CPBorderedLayer.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPAxis.h
+c000000004C78649600000000000019A9
+t1282958486
+s6569
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+i"CPDefinitions.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPAxisLabel.h
+c000000004C786496000000000000040B
+t1282958486
+s1035
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPAxisLabelGroup.h
+c000000004C7864960000000000000068
+t1282958486
+s104
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPAxisSet.h
+c000000004C7864960000000000000144
+t1282958486
+s324
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPAxisTitle.h
+c000000004C786496000000000000006D
+t1282958486
+s109
+i<Foundation/Foundation.h>
+i"CPAxisLabel.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPBarPlot.h
+c000000004C7864960000000000000B05
+t1282958486
+s2821
+i<Foundation/Foundation.h>
+i"CPPlot.h"
+i"CPDefinitions.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPBorderedLayer.h
+c000000004C786496000000000000013F
+t1282958486
+s319
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPColor.h
+c000000004C7864960000000000000439
+t1282958486
+s1081
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPColorSpace.h
+c000000004C7864960000000000000141
+t1282958486
+s321
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPConstrainedPosition.h
+c000000004C78649600000000000003CE
+t1282958486
+s974
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPDarkGradientTheme.h
+c000000004C786496000000000000006F
+t1282958486
+s111
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPDefinitions.h
+c000000004C7864960000000000000C51
+t1282958486
+s3153
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPExceptions.h
+c000000004C78649600000000000000B2
+t1282958486
+s178
+i<Foundation/Foundation.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPFill.h
+c000000004C7864960000000000000346
+t1282958486
+s838
+i<QuartzCore/QuartzCore.h>
+i<Foundation/Foundation.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPGradient.h
+c000000004C7864960000000000000B97
+t1282958486
+s2967
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPGraph.h
+c000000004C7864960000000000000AF0
+t1282958486
+s2800
+i"CPAnnotationHostLayer.h"
+i"CPDefinitions.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPGridLines.h
+c000000004C786496000000000000010A
+t1282958486
+s266
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPImage.h
+c000000004C78649600000000000002AA
+t1282958486
+s682
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPLayer.h
+c000000004C78649600000000000008CF
+t1282958486
+s2255
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+i"CPResponder.h"
+i"CPPlatformSpecificDefines.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPLayerAnnotation.h
+c000000004C78649600000000000001E3
+t1282958486
+s483
+i<Foundation/Foundation.h>
+i"CPAnnotation.h"
+i"CPConstrainedPosition.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPLayoutManager.h
+c000000004C78649600000000000006B2
+t1282958486
+s1714
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPLineStyle.h
+c000000004C786496000000000000040E
+t1282958486
+s1038
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPPathExtensions.h
+c000000004C78649600000000000000E7
+t1282958486
+s231
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPPieChart.h
+c000000004C7864960000000000000826
+t1282958486
+s2086
+i<Foundation/Foundation.h>
+i"CPPlot.h"
+i"CPDefinitions.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPPlainBlackTheme.h
+c000000004C786496000000000000006E
+t1282958486
+s110
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPPlainWhiteTheme.h
+c000000004C786496000000000000006E
+t1282958486
+s110
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPPlot.h
+c000000004C7864960000000000000F79
+t1282958486
+s3961
+i"CPDefinitions.h"
+i"CPPlotRange.h"
+i"CPLayer.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPPlotAreaFrame.h
+c000000004C786496000000000000016F
+t1282958486
+s367
+i"CPBorderedLayer.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPPlotGroup.h
+c000000004C7864960000000000000142
+t1282958486
+s322
+i"CPLayer.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPPlotRange.h
+c000000004C7864960000000000000713
+t1282958486
+s1811
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPPlotSpace.h
+c000000004C7864960000000000000FE7
+t1282958486
+s4071
+i"CPDefinitions.h"
+i"CPResponder.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPPlotSpaceAnnotation.h
+c000000004C7864960000000000000077
+t1282958486
+s119
+i<Foundation/Foundation.h>
+i"CPAnnotation.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPPlotSymbol.h
+c000000004C7864960000000000000822
+t1282958486
+s2082
+i<Foundation/Foundation.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPPolarPlotSpace.h
+c000000004C7864960000000000000075
+t1282958486
+s117
+i<Foundation/Foundation.h>
+i"CPPlotSpace.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPResponder.h
+c000000004C7864960000000000000535
+t1282958486
+s1333
+i<Foundation/Foundation.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPScatterPlot.h
+c000000004C78649600000000000008D8
+t1282958486
+s2264
+i<Foundation/Foundation.h>
+i"CPPlot.h"
+i"CPDefinitions.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPSlateTheme.h
+c000000004C7864960000000000000068
+t1282958486
+s104
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPStocksTheme.h
+c000000004C786496000000000000006A
+t1282958486
+s106
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPTextLayer.h
+c000000004C7864960000000000000224
+t1282958486
+s548
+i"CPLayer.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPTextStyle.h
+c000000004C786496000000000000034B
+t1282958486
+s843
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPTheme.h
+c000000004C78649600000000000004B0
+t1282958486
+s1200
+i<Foundation/Foundation.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPTimeFormatter.h
+c000000004C7864960000000000000175
+t1282958486
+s373
+i<Foundation/Foundation.h>
+
+N/d/Accelerometer/core-plot/framework/Source/CPTradingRangePlot.h
+c000000004C78649600000000000009C4
+t1282958486
+s2500
+i<Foundation/Foundation.h>
+i"CPPlot.h"
+i"CPDefinitions.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPUtilities.h
+c000000004C786496000000000000079C
+t1282958486
+s1948
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPXYAxis.h
+c000000004C786496000000000000020E
+t1282958486
+s526
+i<Foundation/Foundation.h>
+i"CPAxis.h"
+i"CPDefinitions.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPXYAxisSet.h
+c000000004C78649600000000000000EB
+t1282958486
+s235
+i<Foundation/Foundation.h>
+i"CPAxisSet.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPXYGraph.h
+c000000004C7864960000000000000154
+t1282958486
+s340
+i<Foundation/Foundation.h>
+i"CPGraph.h"
+i"CPDefinitions.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPXYPlotSpace.h
+c000000004C786496000000000000030F
+t1282958486
+s783
+i"CPPlotSpace.h"
+i"CPDefinitions.h"
+
+N/d/Accelerometer/core-plot/framework/Source/CPXYTheme.h
+c000000004C7864960000000000000062
+t1282958486
+s98
+i<Foundation/Foundation.h>
+i"CPTheme.h"
+
+N/d/Accelerometer/core-plot/framework/iPhoneOnly/CPLayerHostingView.h
+c000000004C78649600000000000000BE
+t1282958486
+s190
+i<UIKit/UIKit.h>
+
+N/d/Accelerometer/core-plot/framework/iPhoneOnly/CPPlatformSpecificCategories.h
+c000000004C786496000000000000039E
+t1282958486
+s926
+i<UIKit/UIKit.h>
+i"CPColor.h"
+i"CPLayer.h"
+i"CPPlatformSpecificDefines.h"
+
+N/d/Accelerometer/core-plot/framework/iPhoneOnly/CPPlatformSpecificDefines.h
+c000000004C786496000000000000005B
+t1282958486
+s91
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/d/Accelerometer/core-plot/framework/iPhoneOnly/CPPlatformSpecificFunctions.h
+c000000004C78649600000000000000B6
+t1282958486
+s182
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/d/Accelerometer/main.m
+c000000004C786496000000000000015B
+t1282958486
+s347
+i<UIKit/UIKit.h>
+
+N/var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-auggdwhjovpcjladoceopiyndfrr/AccelerometerPlot_Prefix.pch.gch
+t1312754946
+s15842736
+
+NInfo.plist
+c000000004C84550600000000000004B4
+t1283740934
+s1204
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies334447744#334447744#0(0"0(0#1#0"31525334837231728#0"0#
+
+CCompileC build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/AccelerometerController.o /d/Accelerometer/Classes/AccelerometerController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334447746.173243
+e334447746.330809
+r1
+xCompileC
+xbuild/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/AccelerometerController.o
+x/d/Accelerometer/Classes/AccelerometerController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /d/Accelerometer/Classes/AccelerometerController.m334447746#334447746#0(0"0(0#0#50"/d/Accelerometer/Classes/AccelerometerController.m8608752640#2052"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphonesimulator -I/d/Accelerometer/build/Debug-iphonesimulator/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/DerivedSources/i386 -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/DerivedSources -include /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-auggdwhjovpcjladoceopiyndfrr/AccelerometerPlot_Prefix.pch -c /d/Accelerometer/Classes/AccelerometerController.m -o /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/AccelerometerController.o0#
+
+CCompileC build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/AccelerometerData.o /d/Accelerometer/Classes/AccelerometerData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334447746.146049
+e334447746.216606
+r1
+xCompileC
+xbuild/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/AccelerometerData.o
+x/d/Accelerometer/Classes/AccelerometerData.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /d/Accelerometer/Classes/AccelerometerData.m334447746#334447746#0(0"0(0#0#44"/d/Accelerometer/Classes/AccelerometerData.m8602839968#2040"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphonesimulator -I/d/Accelerometer/build/Debug-iphonesimulator/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/DerivedSources/i386 -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/DerivedSources -include /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-auggdwhjovpcjladoceopiyndfrr/AccelerometerPlot_Prefix.pch -c /d/Accelerometer/Classes/AccelerometerData.m -o /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/AccelerometerData.o0#
+
+CCompileC build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/AppDelegate.o /d/Accelerometer/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334447746.098957
+e334447746.173156
+r1
+xCompileC
+xbuild/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/AppDelegate.o
+x/d/Accelerometer/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /d/Accelerometer/Classes/AppDelegate.m334447746#334447746#0(0"0(0#0#38"/d/Accelerometer/Classes/AppDelegate.m8601017056#2028"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphonesimulator -I/d/Accelerometer/build/Debug-iphonesimulator/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/DerivedSources/i386 -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/DerivedSources -include /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-auggdwhjovpcjladoceopiyndfrr/AccelerometerPlot_Prefix.pch -c /d/Accelerometer/Classes/AppDelegate.m -o /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/AppDelegate.o0#
+
+CCompileC build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/PlotController.o /d/Accelerometer/Classes/PlotController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334447746.295960
+e334447746.459818
+r1
+xCompileC
+xbuild/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/PlotController.o
+x/d/Accelerometer/Classes/PlotController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /d/Accelerometer/Classes/PlotController.m334447746#334447746#0(0"0(0#0#41"/d/Accelerometer/Classes/PlotController.m8606287488#2034"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphonesimulator -I/d/Accelerometer/build/Debug-iphonesimulator/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/DerivedSources/i386 -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/DerivedSources -include /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-auggdwhjovpcjladoceopiyndfrr/AccelerometerPlot_Prefix.pch -c /d/Accelerometer/Classes/PlotController.m -o /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/PlotController.o0#
+
+CCompileC build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/SoundEffect.o /d/Accelerometer/Classes/SoundEffect.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334447746.459902
+e334447746.508018
+r1
+xCompileC
+xbuild/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/SoundEffect.o
+x/d/Accelerometer/Classes/SoundEffect.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /d/Accelerometer/Classes/SoundEffect.m334447746#334447746#0(0"0(0#0#38"/d/Accelerometer/Classes/SoundEffect.m8604378592#2028"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphonesimulator -I/d/Accelerometer/build/Debug-iphonesimulator/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/DerivedSources/i386 -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/DerivedSources -include /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-auggdwhjovpcjladoceopiyndfrr/AccelerometerPlot_Prefix.pch -c /d/Accelerometer/Classes/SoundEffect.m -o /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/SoundEffect.o0#
+
+CCompileC build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/XPlotController.o /d/Accelerometer/Classes/XPlotController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334447746.330889
+e334447746.407685
+r1
+xCompileC
+xbuild/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/XPlotController.o
+x/d/Accelerometer/Classes/XPlotController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /d/Accelerometer/Classes/XPlotController.m334447746#334447746#0(0"0(0#0#42"/d/Accelerometer/Classes/XPlotController.m8606033312#2036"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphonesimulator -I/d/Accelerometer/build/Debug-iphonesimulator/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/DerivedSources/i386 -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/DerivedSources -include /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-auggdwhjovpcjladoceopiyndfrr/AccelerometerPlot_Prefix.pch -c /d/Accelerometer/Classes/XPlotController.m -o /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/XPlotController.o0#
+
+CCompileC build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/YPlotController.o /d/Accelerometer/Classes/YPlotController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334447746.407762
+e334447746.491859
+r1
+xCompileC
+xbuild/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/YPlotController.o
+x/d/Accelerometer/Classes/YPlotController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /d/Accelerometer/Classes/YPlotController.m334447746#334447746#0(0"0(0#0#42"/d/Accelerometer/Classes/YPlotController.m8604614272#2036"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphonesimulator -I/d/Accelerometer/build/Debug-iphonesimulator/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/DerivedSources/i386 -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/DerivedSources -include /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-auggdwhjovpcjladoceopiyndfrr/AccelerometerPlot_Prefix.pch -c /d/Accelerometer/Classes/YPlotController.m -o /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/YPlotController.o0#
+
+CCompileC build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/ZPlotController.o /d/Accelerometer/Classes/ZPlotController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334447746.216687
+e334447746.295872
+r1
+xCompileC
+xbuild/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/ZPlotController.o
+x/d/Accelerometer/Classes/ZPlotController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /d/Accelerometer/Classes/ZPlotController.m334447746#334447746#0(0"0(0#0#42"/d/Accelerometer/Classes/ZPlotController.m8608620192#2036"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphonesimulator -I/d/Accelerometer/build/Debug-iphonesimulator/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/DerivedSources/i386 -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/DerivedSources -include /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-auggdwhjovpcjladoceopiyndfrr/AccelerometerPlot_Prefix.pch -c /d/Accelerometer/Classes/ZPlotController.m -o /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/ZPlotController.o0#
+
+CCompileC build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/main.o /d/Accelerometer/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334447746.097735
+e334447746.145966
+r1
+xCompileC
+xbuild/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/main.o
+x/d/Accelerometer/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Compile /d/Accelerometer/main.m334447746#334447746#0(0"0(0#0#23"/d/Accelerometer/main.m8607956768#2006"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphonesimulator -I/d/Accelerometer/build/Debug-iphonesimulator/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/DerivedSources/i386 -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/DerivedSources -include /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-auggdwhjovpcjladoceopiyndfrr/AccelerometerPlot_Prefix.pch -c /d/Accelerometer/main.m -o /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /d/Accelerometer/Accelerometer.xib
+s334447744.593784
+e334447745.163469
+r1
+xCompileXIB
+x/d/Accelerometer/Accelerometer.xib
+lSLF07#2@28"CompileXIB Accelerometer.xib334447744#334447745#0(0"0(0#0#34"/d/Accelerometer/Accelerometer.xib8604488480#515"    cd /d/Accelerometer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/Accelerometer.nib /d/Accelerometer/Accelerometer.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /d/Accelerometer/MainWindow.xib
+s334447744.592845
+e334447744.998328
+r1
+xCompileXIB
+x/d/Accelerometer/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib334447744#334447744#0(0"0(0#0#31"/d/Accelerometer/MainWindow.xib8605723104#509"    cd /d/Accelerometer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/MainWindow.nib /d/Accelerometer/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /d/Accelerometer/ScatterPlot.xib
+s334447745.195665
+e334447745.553588
+r1
+xCompileXIB
+x/d/Accelerometer/ScatterPlot.xib
+lSLF07#2@26"CompileXIB ScatterPlot.xib334447745#334447745#0(0"0(0#0#32"/d/Accelerometer/ScatterPlot.xib8603435296#511"    cd /d/Accelerometer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/ScatterPlot.nib /d/Accelerometer/ScatterPlot.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /d/Accelerometer/SizingView.xib
+s334447744.998937
+e334447745.464887
+r1
+xCompileXIB
+x/d/Accelerometer/SizingView.xib
+lSLF07#2@25"CompileXIB SizingView.xib334447744#334447745#0(0"0(0#0#31"/d/Accelerometer/SizingView.xib8606576320#509"    cd /d/Accelerometer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/SizingView.nib /d/Accelerometer/SizingView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCpResource build/Debug-iphonesimulator/Acceleration.app/16-line-chart.png GlyphishIcons/16-line-chart.png
+s334447744.593324
+e334447744.597531
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Acceleration.app/16-line-chart.png
+xGlyphishIcons/16-line-chart.png
+lSLF07#2@36"Copy GlyphishIcons/16-line-chart.png334447744#334447744#0(0"0(0#0#48"/d/Accelerometer/GlyphishIcons/16-line-chart.png8604545472#428"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /d/Accelerometer/GlyphishIcons/16-line-chart.png /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app0#
+
+CCpResource build/Debug-iphonesimulator/Acceleration.app/512x512.png GlyphishIcons/512x512.png
+s334447745.173190
+e334447745.193961
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Acceleration.app/512x512.png
+xGlyphishIcons/512x512.png
+lSLF07#2@30"Copy GlyphishIcons/512x512.png334447745#334447745#0(0"0(0#0#42"/d/Accelerometer/GlyphishIcons/512x512.png8600943488#422"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /d/Accelerometer/GlyphishIcons/512x512.png /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app0#
+
+CCpResource build/Debug-iphonesimulator/Acceleration.app/57x57.png GlyphishIcons/57x57.png
+s334447745.170310
+e334447745.203262
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Acceleration.app/57x57.png
+xGlyphishIcons/57x57.png
+lSLF07#2@28"Copy GlyphishIcons/57x57.png334447745#334447745#0(0"0(0#0#40"/d/Accelerometer/GlyphishIcons/57x57.png8603277024#420"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /d/Accelerometer/GlyphishIcons/57x57.png /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app0#
+
+CCpResource build/Debug-iphonesimulator/Acceleration.app/63-runner.png GlyphishIcons/63-runner.png
+s334447745.167391
+e334447745.186352
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Acceleration.app/63-runner.png
+xGlyphishIcons/63-runner.png
+lSLF07#2@32"Copy GlyphishIcons/63-runner.png334447745#334447745#0(0"0(0#0#44"/d/Accelerometer/GlyphishIcons/63-runner.png8604578880#424"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /d/Accelerometer/GlyphishIcons/63-runner.png /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app0#
+
+CCpResource build/Debug-iphonesimulator/Acceleration.app/72x72.png GlyphishIcons/72x72.png
+s334447745.171747
+e334447745.187932
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Acceleration.app/72x72.png
+xGlyphishIcons/72x72.png
+lSLF07#2@28"Copy GlyphishIcons/72x72.png334447745#334447745#0(0"0(0#0#40"/d/Accelerometer/GlyphishIcons/72x72.png8600998912#420"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /d/Accelerometer/GlyphishIcons/72x72.png /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app0#
+
+CCpResource build/Debug-iphonesimulator/Acceleration.app/Icon-Small-50.png GlyphishIcons/Icon-Small-50.png
+s334447745.168866
+e334447745.182875
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Acceleration.app/Icon-Small-50.png
+xGlyphishIcons/Icon-Small-50.png
+lSLF07#2@36"Copy GlyphishIcons/Icon-Small-50.png334447745#334447745#0(0"0(0#0#48"/d/Accelerometer/GlyphishIcons/Icon-Small-50.png8604477248#428"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /d/Accelerometer/GlyphishIcons/Icon-Small-50.png /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app0#
+
+CCpResource build/Debug-iphonesimulator/Acceleration.app/Settings.bundle Settings.bundle
+s334447744.998403
+e334447745.002704
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Acceleration.app/Settings.bundle
+xSettings.bundle
+lSLF07#2@20"Copy Settings.bundle334447744#334447745#0(0"0(0#0#32"/d/Accelerometer/Settings.bundle8608049216#412"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /d/Accelerometer/Settings.bundle /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app0#
+
+CCpResource build/Debug-iphonesimulator/Acceleration.app/blue.png GlyphishIcons/blue.png
+s334447745.163538
+e334447745.195535
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Acceleration.app/blue.png
+xGlyphishIcons/blue.png
+lSLF07#2@27"Copy GlyphishIcons/blue.png334447745#334447745#0(0"0(0#0#39"/d/Accelerometer/GlyphishIcons/blue.png8606025920#419"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /d/Accelerometer/GlyphishIcons/blue.png /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app0#
+
+CCpResource build/Debug-iphonesimulator/Acceleration.app/calibrateSound.caf Sounds/calibrateSound.caf
+s334447745.178182
+e334447745.197485
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Acceleration.app/calibrateSound.caf
+xSounds/calibrateSound.caf
+lSLF07#2@30"Copy Sounds/calibrateSound.caf334447745#334447745#0(0"0(0#0#42"/d/Accelerometer/Sounds/calibrateSound.caf8604260288#422"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /d/Accelerometer/Sounds/calibrateSound.caf /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app0#
+
+CCpResource build/Debug-iphonesimulator/Acceleration.app/clock-22x22.png GlyphishIcons/clock-22x22.png
+s334447745.176308
+e334447745.195620
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Acceleration.app/clock-22x22.png
+xGlyphishIcons/clock-22x22.png
+lSLF07#2@34"Copy GlyphishIcons/clock-22x22.png334447745#334447745#0(0"0(0#0#46"/d/Accelerometer/GlyphishIcons/clock-22x22.png8600638656#426"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /d/Accelerometer/GlyphishIcons/clock-22x22.png /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app0#
+
+CCpResource build/Debug-iphonesimulator/Acceleration.app/clock-32x32.png GlyphishIcons/clock-32x32.png
+s334447745.174661
+e334447745.191178
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Acceleration.app/clock-32x32.png
+xGlyphishIcons/clock-32x32.png
+lSLF07#2@34"Copy GlyphishIcons/clock-32x32.png334447745#334447745#0(0"0(0#0#46"/d/Accelerometer/GlyphishIcons/clock-32x32.png8600845600#426"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /d/Accelerometer/GlyphishIcons/clock-32x32.png /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app0#
+
+CCpResource build/Debug-iphonesimulator/Acceleration.app/email.png GlyphishIcons/email.png
+s334447745.194019
+e334447745.206674
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Acceleration.app/email.png
+xGlyphishIcons/email.png
+lSLF07#2@28"Copy GlyphishIcons/email.png334447745#334447745#0(0"0(0#0#40"/d/Accelerometer/GlyphishIcons/email.png8603704800#420"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /d/Accelerometer/GlyphishIcons/email.png /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app0#
+
+CCpResource build/Debug-iphonesimulator/Acceleration.app/green.png GlyphishIcons/green.png
+s334447745.165943
+e334447745.178135
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Acceleration.app/green.png
+xGlyphishIcons/green.png
+lSLF07#2@28"Copy GlyphishIcons/green.png334447745#334447745#0(0"0(0#0#40"/d/Accelerometer/GlyphishIcons/green.png8605744544#420"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /d/Accelerometer/GlyphishIcons/green.png /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app0#
+
+CCpResource build/Debug-iphonesimulator/Acceleration.app/red.png GlyphishIcons/red.png
+s334447745.164514
+e334447745.176257
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Acceleration.app/red.png
+xGlyphishIcons/red.png
+lSLF07#2@26"Copy GlyphishIcons/red.png334447745#334447745#0(0"0(0#0#38"/d/Accelerometer/GlyphishIcons/red.png8605935360#418"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /d/Accelerometer/GlyphishIcons/red.png /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app0#
+
+CCpResource build/Debug-iphonesimulator/Acceleration.app/samplesPerSecond.PNG GlyphishIcons/samplesPerSecond.PNG
+s334447745.464959
+e334447745.468795
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Acceleration.app/samplesPerSecond.PNG
+xGlyphishIcons/samplesPerSecond.PNG
+lSLF07#2@39"Copy GlyphishIcons/samplesPerSecond.PNG334447745#334447745#0(0"0(0#0#51"/d/Accelerometer/GlyphishIcons/samplesPerSecond.PNG8603971392#431"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /d/Accelerometer/GlyphishIcons/samplesPerSecond.PNG /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app0#
+
+CCpResource build/Debug-iphonesimulator/Acceleration.app/start.png GlyphishIcons/start.png
+s334447745.187979
+e334447745.209972
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Acceleration.app/start.png
+xGlyphishIcons/start.png
+lSLF07#2@28"Copy GlyphishIcons/start.png334447745#334447745#0(0"0(0#0#40"/d/Accelerometer/GlyphishIcons/start.png8603949312#420"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /d/Accelerometer/GlyphishIcons/start.png /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app0#
+
+CCpResource build/Debug-iphonesimulator/Acceleration.app/startSound.caf Sounds/startSound.caf
+s334447745.182932
+e334447745.198540
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Acceleration.app/startSound.caf
+xSounds/startSound.caf
+lSLF07#2@26"Copy Sounds/startSound.caf334447745#334447745#0(0"0(0#0#38"/d/Accelerometer/Sounds/startSound.caf8604138912#418"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /d/Accelerometer/Sounds/startSound.caf /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app0#
+
+CCpResource build/Debug-iphonesimulator/Acceleration.app/stop.png GlyphishIcons/stop.png
+s334447745.191247
+e334447745.211683
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Acceleration.app/stop.png
+xGlyphishIcons/stop.png
+lSLF07#2@27"Copy GlyphishIcons/stop.png334447745#334447745#0(0"0(0#0#39"/d/Accelerometer/GlyphishIcons/stop.png8603863040#419"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /d/Accelerometer/GlyphishIcons/stop.png /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app0#
+
+CCpResource build/Debug-iphonesimulator/Acceleration.app/stopSound.caf Sounds/stopSound.caf
+s334447745.186405
+e334447745.201754
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Acceleration.app/stopSound.caf
+xSounds/stopSound.caf
+lSLF07#2@25"Copy Sounds/stopSound.caf334447745#334447745#0(0"0(0#0#37"/d/Accelerometer/Sounds/stopSound.caf8603991680#417"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /d/Accelerometer/Sounds/stopSound.caf /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app0#
+
+CGenerateDSYMFile /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app.dSYM /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/Acceleration
+s334447746.634362
+e334447746.705133
+r1
+xGenerateDSYMFile
+x/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app.dSYM
+x/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/Acceleration
+lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/Acceleration.app.dSYM build/Debug-iphonesimulator/Acceleration.app/Acceleration334447746#334447746#0(0"0(0#0#74"/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/Acceleration8603955840#332"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/Acceleration -o /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app.dSYM0#
+
+CLd /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/Acceleration normal i386
+s334447746.508093
+e334447746.634277
+r1
+xLd
+x/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/Acceleration
+xnormal
+xi386
+lSLF07#2@79"Link /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/Acceleration334447746#334447746#0(0"0(0#0#0"8604180224#983"    cd /d/Accelerometer    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/d/Accelerometer/build/Debug-iphonesimulator -F/d/Accelerometer/build/Debug-iphonesimulator -filelist /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Objects-normal/i386/Acceleration.LinkFileList -mmacosx-version-min=10.6 -all_load -ObjC -Xlinker -objc_abi_version -Xlinker 2 /d/Accelerometer/core-plot/build/Debug-iphonesimulator/libCorePlot-CocoaTouch.a -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -framework MessageUI -framework AudioToolbox -o /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/Acceleration0#
+
+CProcessInfoPlistFile /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/Info.plist Info.plist
+s334447744.589657
+e334447744.592792
+r1
+xProcessInfoPlistFile
+x/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist334447744#334447744#0(0"0(0#0#27"/d/Accelerometer/Info.plist8605972672#415"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info.plist -genpkginfo /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app/Info.plist0#
+
+CProcessPCH /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-auggdwhjovpcjladoceopiyndfrr/AccelerometerPlot_Prefix.pch.gch AccelerometerPlot_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s334447745.553796
+e334447746.097520
+r1
+xProcessPCH
+x/var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-auggdwhjovpcjladoceopiyndfrr/AccelerometerPlot_Prefix.pch.gch
+xAccelerometerPlot_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile AccelerometerPlot_Prefix.pch334447745#334447746#0(0"0(0#0#45"/d/Accelerometer/AccelerometerPlot_Prefix.pch8606028960#1915"    cd /d/Accelerometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-generated-files.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-own-target-headers.hmap -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-all-target-headers.hmap -iquote /d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/Acceleration-project-headers.hmap -F/d/Accelerometer/build/Debug-iphonesimulator -I/d/Accelerometer/build/Debug-iphonesimulator/include -Icore-plot/framework -Icore-plot/framework/iPhoneOnly -Icore-plot/framework/MacOnly -Icore-plot/framework/SDKBuild -Icore-plot/framework/Source -Icore-plot/framework/TestResources -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/DerivedSources/i386 -I/d/Accelerometer/build/Acceleration.build/Debug-iphonesimulator/AccelerometerPlot.build/DerivedSources -c /d/Accelerometer/AccelerometerPlot_Prefix.pch -o /var/folders/Nt/NtWMv04zFNuKwgC82VznA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AccelerometerPlot_Prefix-auggdwhjovpcjladoceopiyndfrr/AccelerometerPlot_Prefix.pch.gch0#
+
+CTouch /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app
+s334447746.705211
+e334447746.707987
+r1
+xTouch
+x/d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app
+lSLF07#2@67"Touch /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app334447746#334447746#0(0"0(0#0#0"8603872096#239"    cd /d/Accelerometer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /d/Accelerometer/build/Debug-iphonesimulator/Acceleration.app0#
+
